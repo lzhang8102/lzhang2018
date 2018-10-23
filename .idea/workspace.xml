@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faac30f0-31eb-4007-b8a3-3953c004a05d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/case/aws_general.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/aws_login_open_detail.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/repeat_process.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/aws_detail.py" afterPath="$PROJECT_DIR$/case/aws_detail.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/detailpage.py" afterPath="$PROJECT_DIR$/page/detailpage.py" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +41,8 @@
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_04__3_.coverage" NAME="Unittest Test_Detail.test_04 (3) Coverage Results" MODIFIED="1534315219795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_12__2_.coverage" NAME="Unittest Test_Detail.test_12 (2) Coverage Results" MODIFIED="1540259087979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail.coverage" NAME="Unittests in Test_Detail Coverage Results" MODIFIED="1536126639689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
-    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_10.coverage" NAME="Unittest Test_Detail.test_10 Coverage Results" MODIFIED="1540179985213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/test$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1540193144817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_10.coverage" NAME="Unittest Test_Detail.test_10 Coverage Results" MODIFIED="1540273937071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1540274041966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$login_open_detail.coverage" NAME="login_open_detail Coverage Results" MODIFIED="1534919644989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_09.coverage" NAME="Unittest Test_Detail.test_09 Coverage Results" MODIFIED="1540174453048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Platform_test01.coverage" NAME="Unittest Platform.test01 Coverage Results" MODIFIED="1528267298990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
@@ -102,10 +99,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.6962025">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
@@ -118,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
                 <element signature="e#564#646#0" expanded="false" />
@@ -139,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detailpage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detailpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/detailpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79746836">
-              <caret line="630" column="0" selection-start-line="630" selection-start-column="0" selection-end-line="630" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="459" column="43" selection-start-line="459" selection-start-column="43" selection-end-line="459" selection-end-column="43" />
               <folding>
                 <element signature="e#106#820#0" expanded="false" />
                 <element signature="e#313#374#0" expanded="false" />
@@ -245,8 +242,8 @@
         <option value="$PROJECT_DIR$/send_email.py" />
         <option value="$PROJECT_DIR$/run_all.py" />
         <option value="$PROJECT_DIR$/case/aws_fav.py" />
-        <option value="$PROJECT_DIR$/page/detailpage.py" />
         <option value="$PROJECT_DIR$/case/aws_detail.py" />
+        <option value="$PROJECT_DIR$/page/detailpage.py" />
       </list>
     </option>
   </component>
@@ -375,7 +372,7 @@
       <recent name="D:\test\fengzhuang" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Test_Detail.test_11 (2)">
+  <component name="RunManager" selected="Python.run_all">
     <configuration default="false" name="detailpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,52 +389,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/detailpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Test_Detail.test_12 (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
-      <option name="CLASS_NAME" value="Test_Detail" />
-      <option name="METHOD_NAME" value="test_12" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Test_Detail.test_11" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
-      <option name="CLASS_NAME" value="Test_Detail" />
-      <option name="METHOD_NAME" value="test_11" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Unittest Test_Detail.test_11 (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -484,6 +435,47 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Test_Detail.test_10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
+      <option name="CLASS_NAME" value="Test_Detail" />
+      <option name="METHOD_NAME" value="test_10" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -681,18 +673,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.detailpage" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_12 (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run_all" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.detailpage" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_12 (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.detailpage" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -710,6 +702,15 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittest_Test_Detail_test_10 - 2018.10.23 at 13h 42m 19s.xml">
+      <configuration name="Unittest Test_Detail.test_10" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Test_Detail_test_10 - 2018.10.23 at 13h 44m 36s.xml">
+      <configuration name="Unittest Test_Detail.test_10" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Test_Detail_test_10 - 2018.10.23 at 13h 53m 10s.xml">
+      <configuration name="Unittest Test_Detail.test_10" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittest_Test_Detail_test_11 - 2018.10.23 at 09h 47m 20s.xml">
       <configuration name="Unittest Test_Detail.test_11" configurationId="tests" />
     </history-entry>
@@ -725,17 +726,8 @@
     <history-entry file="Unittest_Test_Detail_test_11_(2) - 2018.10.23 at 10h 02m 47s.xml">
       <configuration name="Unittest Test_Detail.test_11 (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_12_(1) - 2018.10.22 at 16h 31m 17s.xml">
-      <configuration name="Unittest Test_Detail.test_12 (1)" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_Test_Detail_test_12_(2) - 2018.10.23 at 09h 45m 41s.xml">
       <configuration name="Unittest Test_Detail.test_12 (2)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_aws_detail - 2018.10.22 at 14h 37m 18s.xml">
-      <configuration name="Unittests in aws_detail" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_aws_detail - 2018.10.22 at 14h 45m 58s.xml">
-      <configuration name="Unittests in aws_detail" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_aws_detail - 2018.10.22 at 14h 54m 20s.xml">
       <configuration name="Unittests in aws_detail" configurationId="tests" />
@@ -743,15 +735,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1313,20 +1305,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
             <element signature="e#564#646#0" expanded="false" />
@@ -1348,8 +1330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page/detailpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79746836">
-          <caret line="630" column="0" selection-start-line="630" selection-start-column="0" selection-end-line="630" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="459" column="43" selection-start-line="459" selection-start-column="43" selection-end-line="459" selection-end-column="43" />
           <folding>
             <element signature="e#106#820#0" expanded="false" />
             <element signature="e#313#374#0" expanded="false" />
@@ -1402,6 +1384,16 @@
             <element signature="e#14576#16254#0" expanded="false" />
             <element signature="e#16309#18101#0" expanded="false" />
             <element signature="e#18142#19605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6962025">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

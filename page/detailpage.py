@@ -465,7 +465,7 @@ class Rearrange_Columns_to_right(BasePage):
     selected_columns_loc = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div[2]/div[1]/div[3]/select/option[3]")
     to_right_loc = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div[2]/div[2]/i[2]")
     cancel_update_btn_loc = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div[3]/button[2]")
-    column_to_right_result_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[4]/div[1]/span")
+    column_to_right_result_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/span")
 
     def options(self):
         '''点击options'''
