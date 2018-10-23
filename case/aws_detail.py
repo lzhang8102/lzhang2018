@@ -1,9 +1,17 @@
 # coding:utf-8
 
 import unittest
+import time
 
-from page.aws_login_open_detail import *
+from page.loginpage import *
+from page.detailpage import *
 
+driver = webdriver.Firefox()
+login = LoginPage(driver)
+rpt = Open_Report(driver)
+url = "https://demo.jintelhealth.com/Analytics/#!/login"
+username = "lz_admin"
+psw = "Ghc2018!"
 
 class Test_Detail(unittest.TestCase):
     '''明细表测试'''
@@ -11,87 +19,105 @@ class Test_Detail(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         '''登录'''
-        cls.driver = webdriver.Firefox()
-        detail = Login_Open_Detail(cls.driver)
-        detail.login_url()
+        login.login_process(url,username,psw)
 
     @classmethod
     def tearDownClass(cls):
-         cls.driver.quit()
+        login.logout()
+        driver.quit()
 
     def setUp(self):
         '''打开明细表'''
-        detail = Login_Open_Detail(self.driver)
-        detail.open_detail()
-        self.P = Repeat_Process(self.driver)
-        self.Base = BasePage(self.driver)
+        rpt.open_steps(report_name="Detail0808")
+        time.sleep(3)
 
     def test_01(self):
         '''测试能成功添加快速过滤器'''
-        locator_Add_Filter = ("css selector", ".basic-filter__icon.iconfont.icon-dropdown")
-        locator_Quick = ("xpath", ".//*[@id='collapse']/div/div[1]/ul/li[1]/a/uib-tab-heading")
-        locator_Input_Text = ("xpath", ".//*[@id='collapse']/div/div[1]/div/div[1]/div/ul[2]/li[1]/div[2]/div/div/div/textarea")
-        text = "2"
-        Operation_List = ("xpath",".//*[@id='collapse']/div/div[1]/div/div[1]/div/ul[2]/li[1]/div[3]/div/div[1]")
-        Operation = ("xpath",".//*[@id='collapse']/div/div[1]/div/div[1]/div/ul[2]/li[1]/div[3]/div/div[2]/div/div/div[2]/div")
-        locator_Apply_Filter = ("id", "refresh-filter")
-        self.P.add_basic_filter(locator_Add_Filter, locator_Quick, locator_Input_Text,text,Operation_List,Operation, locator_Apply_Filter)
-        locator_Result = ("xpath", ".//*[@id='table']/tbody/tr[1]/td[4]")
-        result = self.P.result(locator_Result)
-        print(result)
+        qk_filter = Add_Quick_Filter(driver)
+        qk_filter.quick_filter_steps()
+        result = qk_filter.get_filter_value()
         self.assertEqual("2", result)
 
     def test_02(self):
         '''测试能成功添加Basic过滤器'''
-        locator_Add_Filter = ("css selector", ".basic-filter__icon.iconfont.icon-dropdown")
-        locator_Basic = ("xpath",".//*[@id='collapse']/div/div[1]/ul/li[2]/a")
-        locator_Add_Button = ("xpath",".//*[@id='collapse']/div/div[1]/div/div[2]/div/div/button")
-        locator_Field_List = ("xpath",".//*[@id='collapse']/div/div[1]/div/div[2]/ul/li/div[1]/div[2]/div/div[1]")
-        locator_Field = ("xpath",".//*[@id='collapse']/div/div[1]/div/div[2]/ul/li/div[1]/div[2]/div/div[2]/div/div/div[2]/div")
-        locator_Operation_List = ("xpath",".//*[@id='collapse']/div/div[1]/div/div[2]/ul/li/div[2]/div/div[1]")
-        locator_Operation =("xpath",".//*[@id='collapse']/div/div[1]/div/div[2]/ul/li/div[2]/div/div[2]/div/div/div[2]/div/span")
-        locator_Field_Text =("xpath",".//*[@id='collapse']/div/div[1]/div/div[2]/ul/li/div[3]/div/div/div/textarea")
-        text = "0006981"
-        locator_Apply_Filter = ("id", "refresh-filter")
-        self.P.add_basic_filter(locator_Add_Filter,locator_Basic,locator_Add_Button,locator_Field_List,locator_Field,
-                           locator_Operation_List,locator_Operation,locator_Field_Text,text,locator_Apply_Filter)
-        locator_Result = ("xpath",".//*[@id='table']/tbody/tr[1]/td[2]")
-        result = self.P.result(locator_Result)
-        print(result)
+        Bsc_filter = Add_Basic_Filter(driver)
+        Bsc_filter.basic_filter_steps()
+        result = Bsc_filter.get_filter_value()
         self.assertEqual("0006981",result)
 
     def test_03(self):
-        u'''测试收藏报表'''
-        Favorite_Button = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[1]/div/div/div/button[1]")
-        Report_Name = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div[2]/form/div[1]/input")
-        text = "my report"
-        OK_Cancel_Button = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div[3]/button[2]")
-        Favorite_Icon = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div[1]/header/div[3]/div[1]/i")
-        Report_Title = ("xpath",".//*[text()='my report']")
-        self.P. favorite(Favorite_Button,Report_Name,text,OK_Cancel_Button,Favorite_Icon,Report_Title)
-        locator_Result = ("css selector",".box-title.container__title.ng-binding.ng-scope")
-        result = self.P.result(locator_Result)
-        print(result)
-        self.assertEqual("Detail0808",result)
+        '''测试收藏报表'''
+        fav_rpt = Favorite_Report(driver)
+        fav_rpt.favorite_steps()
+        time.sleep(3)  # 此处如果不等待就获取不到正确的report title元素
+        result = fav_rpt.get_favorite_title()
+        self.assertEqual("my detail",result)
 
     def test_04(self):
-        u'''测试弹出报表'''
-        Pop = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[1]/div/div/div/button[2]")
-        self.P.pop_out(Pop)  # 弹出报表并获取句柄
-        self.assertEqual(2,len(Pop))
+        '''测试弹出报表'''
+        pop_rpt = Pop_out(driver)
+        pop_rpt.pop_btn()
+        result = len(pop_rpt.get_handles())
+        self.assertEqual(2,result)
 
     def test_05(self):
-        u'''测试导出报表'''
-        Expt_Icon = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[1]/div/div/div/button[3]")
-        Rpt_Title =("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div/div[2]/div[1]/input")
-        text = ("my export")
-        File_Type = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div/div[2]/div[2]/div/div/div[1]")
-        Rpt_Type = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div")
-        Expt_Cancel_Btn = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div/div[3]/button[2]")
-        self.P.exp_rpt(Expt_Icon,Rpt_Title,text,File_Type,Rpt_Type,Expt_Cancel_Btn)
-        Exp_ready = ("xpath",".//*[@href='#Download']/../../../div/p")
-        result = self.P.result(Exp_ready)
-        self.assertEqual("Your export is ready",result)
+        '''测试导出报表'''
+        ept = Export_Report(driver)
+        ept.ept_steps()
+        result = ept.download_info()
+        self.assertEqual("Download",result)
+        ept.close_btn()
+
+    def test_06(self):
+        '''测试排序'''
+        sort_rpt = Sort_Column(driver)
+        sort_rpt.sort_steps()
+        result = sort_rpt.sort_result()
+        self.assertEqual("1", result)
+
+    def test_07(self):
+        '''测试分组'''
+        group_rpt = Group_Column(driver)
+        group_rpt.group_steps()
+        result = group_rpt.group_result()
+        self.assertEqual("4611",result)
+
+    def test_08(self):
+        '''测试从分组排序中隐藏一列'''
+        to_left = Rearrange_Columns_to_left(driver)
+        to_left.rearrane_column_to_left_steps()
+        result = to_left.column_to_left_result()
+        self.assertEqual("",result)
+
+    def test_09(self):
+        '''测试从分组排序中隐藏所有字段'''
+        all_to_left = Rearrange_all_columns_to_left(driver)
+        all_to_left.all_column_to_left_steps()
+        result = all_to_left.warning_show()
+        self.assertEqual("Please keep at least one column", result)
+        all_to_left.close_btn()
+
+    def test_10(self):
+        '''测试从分组排序中选择字段显示在报表中'''
+        to_right = Rearrange_Columns_to_right(driver)
+        to_right.rearrane_column_to_right_steps()
+        result = to_right.column_to_right_result()
+        self.assertEqual("claim_line_number",result)
+
+    def test_11(self):
+        '''测试分组排序显示所有列'''
+        all_columns = Rearrange_all_columns_to_right(driver)
+        all_columns.all_columns_to_right_steps()
+        result = all_columns.all_to_right_result()
+        self.assertEqual("member_id",result)
+
+    def test_12(self):
+        '''测试取消分组排序'''
+        cancel_re = Rearrange_cancel(driver)
+        cancel_re.cancel_rearrange_steps()
+        result = cancel_re.cancel_rearrange_result()
+        self.assertEqual("member_id",result)
+
 
 if __name__ == "__main__":
     unittest.main()
