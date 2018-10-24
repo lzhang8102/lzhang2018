@@ -118,6 +118,20 @@ class Test_Detail(unittest.TestCase):
         result = cancel_re.cancel_rearrange_result()
         self.assertEqual("member_id",result)
 
+    def test_13(self):
+        '''测试隐藏一列'''
+        hide = Hide_Column(driver)
+        hide.hide_steps()
+        result = hide.hide_result()
+        self.assertEqual("claim_number",result)
+
+    def test_14(self):
+        '''从字段处分组'''
+        group_field = Group_cloumn_on_column(driver)
+        group_field.group_field_steps()
+        result = group_field.group_result()
+        self.assertEqual("Group Name",result)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="faac30f0-31eb-4007-b8a3-3953c004a05d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case/aws_detail.py" afterPath="$PROJECT_DIR$/case/aws_detail.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/detailpage.py" afterPath="$PROJECT_DIR$/page/detailpage.py" />
     </list>
     <ignored path="test.iws" />
@@ -24,9 +25,10 @@
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_02__2_.coverage" NAME="Unittest Test_Detail.test_02 (2) Coverage Results" MODIFIED="1532420866041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail__4_.coverage" NAME="Unittests in Test_Detail (4) Coverage Results" MODIFIED="1533633708165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_12__1_.coverage" NAME="Unittest Test_Detail.test_12 (1) Coverage Results" MODIFIED="1540197033172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/test$detailpage.coverage" NAME="detailpage Coverage Results" MODIFIED="1540259988029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/test$detailpage.coverage" NAME="detailpage Coverage Results" MODIFIED="1540374428226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test__1_.coverage" NAME="Unittests in Test (1) Coverage Results" MODIFIED="1531994356469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$secondary_package.coverage" NAME="secondary_package Coverage Results" MODIFIED="1528276447922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_13.coverage" NAME="Unittest Test_Detail.test_13 Coverage Results" MODIFIED="1540370405535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test.coverage" NAME="Unittests in Test Coverage Results" MODIFIED="1532401119519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_01__3_.coverage" NAME="Unittest Test_Detail.test_01 (3) Coverage Results" MODIFIED="1535525512122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$cls_login.coverage" NAME="cls_login Coverage Results" MODIFIED="1532421481041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
@@ -59,6 +61,7 @@
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_08.coverage" NAME="Unittest Test_Detail.test_08 Coverage Results" MODIFIED="1540193214560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$login_open_rpt.coverage" NAME="login_open_rpt Coverage Results" MODIFIED="1533629180906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_11__1_.coverage" NAME="Unittest Test_Detail.test_11 (1) Coverage Results" MODIFIED="1540259766235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_14.coverage" NAME="Unittest Test_Detail.test_14 Coverage Results" MODIFIED="1540374609338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_test_detail.coverage" NAME="Unittests in test_detail Coverage Results" MODIFIED="1533715190726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$cls_location.coverage" NAME="cls_location Coverage Results" MODIFIED="1527669563137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail__2_.coverage" NAME="Unittests in Test_Detail (2) Coverage Results" MODIFIED="1533630799709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
@@ -99,25 +102,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/run_all.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6962025">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aws_detail.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aws_detail.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+            <state vertical-scroll-proportion="2.5277162">
+              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
+                <element signature="e#388#442#0" expanded="false" />
+                <element signature="e#497#533#0" expanded="false" />
                 <element signature="e#564#646#0" expanded="false" />
                 <element signature="e#679#865#0" expanded="false" />
                 <element signature="e#898#1095#0" expanded="false" />
@@ -131,6 +124,8 @@
                 <element signature="e#2716#2948#0" expanded="false" />
                 <element signature="e#2981#3204#0" expanded="false" />
                 <element signature="e#3237#3437#0" expanded="false" />
+                <element signature="e#3470#3627#0" expanded="false" />
+                <element signature="e#3660#3855#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -140,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/page/detailpage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="459" column="43" selection-start-line="459" selection-start-column="43" selection-end-line="459" selection-end-column="43" />
+              <caret line="615" column="0" selection-start-line="615" selection-start-column="0" selection-end-line="615" selection-end-column="0" />
               <folding>
                 <element signature="e#106#820#0" expanded="false" />
                 <element signature="e#313#374#0" expanded="false" />
@@ -167,16 +162,8 @@
                 <element signature="e#4350#4625#0" expanded="false" />
                 <element signature="e#4667#4848#0" expanded="false" />
                 <element signature="e#4888#6422#0" expanded="false" />
-                <element signature="e#5508#5562#0" expanded="false" />
-                <element signature="e#5607#5671#0" expanded="false" />
-                <element signature="e#5709#5771#0" expanded="false" />
-                <element signature="e#5810#5866#0" expanded="false" />
-                <element signature="e#5909#5965#0" expanded="false" />
-                <element signature="e#6024#6188#0" expanded="false" />
                 <element signature="e#6232#6422#0" expanded="false" />
                 <element signature="e#6454#6724#0" expanded="false" />
-                <element signature="e#6609#6654#0" expanded="false" />
-                <element signature="e#6687#6724#0" expanded="false" />
                 <element signature="e#6762#8469#0" expanded="false" />
                 <element signature="e#7492#7541#0" expanded="false" />
                 <element signature="e#7587#7647#0" expanded="false" />
@@ -193,6 +180,8 @@
                 <element signature="e#14576#16254#0" expanded="false" />
                 <element signature="e#16309#18101#0" expanded="false" />
                 <element signature="e#18142#19605#0" expanded="false" />
+                <element signature="e#19641#20694#0" expanded="false" />
+                <element signature="e#20741#22136#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -242,8 +231,8 @@
         <option value="$PROJECT_DIR$/send_email.py" />
         <option value="$PROJECT_DIR$/run_all.py" />
         <option value="$PROJECT_DIR$/case/aws_fav.py" />
-        <option value="$PROJECT_DIR$/case/aws_detail.py" />
         <option value="$PROJECT_DIR$/page/detailpage.py" />
+        <option value="$PROJECT_DIR$/case/aws_detail.py" />
       </list>
     </option>
   </component>
@@ -283,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -294,6 +282,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,7 +361,7 @@
       <recent name="D:\test\fengzhuang" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_all">
+  <component name="RunManager" selected="Python tests.Unittest Test_Detail.test_14">
     <configuration default="false" name="detailpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,52 +378,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/detailpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Test_Detail.test_11 (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
-      <option name="CLASS_NAME" value="Test_Detail" />
-      <option name="METHOD_NAME" value="test_11" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest Test_Detail.test_11 (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
-      <option name="CLASS_NAME" value="Test_Detail" />
-      <option name="METHOD_NAME" value="test_11" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Unittest Test_Detail.test_10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -476,6 +419,52 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Test_Detail.test_13" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
+      <option name="CLASS_NAME" value="Test_Detail" />
+      <option name="METHOD_NAME" value="test_13" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Test_Detail.test_14" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
+      <option name="CLASS_NAME" value="Test_Detail" />
+      <option name="METHOD_NAME" value="test_14" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -673,18 +662,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.detailpage" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
-      <item index="4" class="java.lang.String" itemvalue="Python.run_all" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run_all" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_13" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_14" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.detailpage" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_11 (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_14" />
+        <item index="1" class="java.lang.String" itemvalue="Python.detailpage" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_13" />
+        <item index="3" class="java.lang.String" itemvalue="Python.run_all" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
       </list>
     </recent_temporary>
   </component>
@@ -702,12 +691,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Test_Detail_test_10 - 2018.10.23 at 13h 42m 19s.xml">
-      <configuration name="Unittest Test_Detail.test_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_10 - 2018.10.23 at 13h 44m 36s.xml">
-      <configuration name="Unittest Test_Detail.test_10" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_Test_Detail_test_10 - 2018.10.23 at 13h 53m 10s.xml">
       <configuration name="Unittest Test_Detail.test_10" configurationId="tests" />
     </history-entry>
@@ -729,6 +712,12 @@
     <history-entry file="Unittest_Test_Detail_test_12_(2) - 2018.10.23 at 09h 45m 41s.xml">
       <configuration name="Unittest Test_Detail.test_12 (2)" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_Test_Detail_test_13 - 2018.10.24 at 16h 41m 03s.xml">
+      <configuration name="Unittest Test_Detail.test_13" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_Test_Detail_test_14 - 2018.10.24 at 17h 51m 02s.xml">
+      <configuration name="Unittest Test_Detail.test_14" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_aws_detail - 2018.10.22 at 14h 54m 20s.xml">
       <configuration name="Unittests in aws_detail" configurationId="tests" />
     </history-entry>
@@ -743,11 +732,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24447949" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28541225" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28391168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -774,7 +763,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="81" />
+      <option name="time" value="84" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -788,12 +777,74 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/page/detailpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#820#0" expanded="false" />
+            <element signature="e#313#374#0" expanded="false" />
+            <element signature="e#410#463#0" expanded="false" />
+            <element signature="e#524#599#0" expanded="false" />
+            <element signature="e#641#820#0" expanded="false" />
+            <element signature="e#861#2481#0" expanded="false" />
+            <element signature="e#1596#1649#0" expanded="false" />
+            <element signature="e#1684#1738#0" expanded="false" />
+            <element signature="e#1788#1844#0" expanded="false" />
+            <element signature="e#1888#1946#0" expanded="false" />
+            <element signature="e#1981#2036#0" expanded="false" />
+            <element signature="e#2090#2258#0" expanded="false" />
+            <element signature="e#2300#2481#0" expanded="false" />
+            <element signature="e#2522#4848#0" expanded="false" />
+            <element signature="e#3497#3550#0" expanded="false" />
+            <element signature="e#3585#3639#0" expanded="false" />
+            <element signature="e#3764#3819#0" expanded="false" />
+            <element signature="e#3850#3895#0" expanded="false" />
+            <element signature="e#3940#3999#0" expanded="false" />
+            <element signature="e#4034#4085#0" expanded="false" />
+            <element signature="e#4135#4191#0" expanded="false" />
+            <element signature="e#4233#4290#0" expanded="false" />
+            <element signature="e#4350#4625#0" expanded="false" />
+            <element signature="e#4667#4848#0" expanded="false" />
+            <element signature="e#4888#6422#0" expanded="false" />
+            <element signature="e#6232#6422#0" expanded="false" />
+            <element signature="e#6454#6724#0" expanded="false" />
+            <element signature="e#6762#8469#0" expanded="false" />
+            <element signature="e#7492#7541#0" expanded="false" />
+            <element signature="e#7587#7647#0" expanded="false" />
+            <element signature="e#7687#7747#0" expanded="false" />
+            <element signature="e#7789#7842#0" expanded="false" />
+            <element signature="e#7882#7941#0" expanded="false" />
+            <element signature="e#8000#8162#0" expanded="false" />
+            <element signature="e#8201#8383#0" expanded="false" />
+            <element signature="e#8418#8469#0" expanded="false" />
+            <element signature="e#8505#10129#0" expanded="false" />
+            <element signature="e#10166#11628#0" expanded="false" />
+            <element signature="e#11678#13132#0" expanded="false" />
+            <element signature="e#13186#14525#0" expanded="false" />
+            <element signature="e#14576#16254#0" expanded="false" />
+            <element signature="e#16309#18101#0" expanded="false" />
+            <element signature="e#18142#19605#0" expanded="false" />
+            <element signature="e#19641#20694#0" expanded="false" />
+            <element signature="e#20741#22136#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -801,9 +852,11 @@
     <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#388#442#0" expanded="false" />
+            <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
             <element signature="e#679#865#0" expanded="false" />
             <element signature="e#898#1095#0" expanded="false" />
@@ -817,6 +870,99 @@
             <element signature="e#2716#2948#0" expanded="false" />
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
+            <element signature="e#3470#3627#0" expanded="false" />
+            <element signature="e#3660#3855#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/detailpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="650" column="32" selection-start-line="650" selection-start-column="32" selection-end-line="650" selection-end-column="32" />
+          <folding>
+            <element signature="e#106#820#0" expanded="false" />
+            <element signature="e#313#374#0" expanded="false" />
+            <element signature="e#410#463#0" expanded="false" />
+            <element signature="e#524#599#0" expanded="false" />
+            <element signature="e#641#820#0" expanded="false" />
+            <element signature="e#861#2481#0" expanded="false" />
+            <element signature="e#1596#1649#0" expanded="false" />
+            <element signature="e#1684#1738#0" expanded="false" />
+            <element signature="e#1788#1844#0" expanded="false" />
+            <element signature="e#1888#1946#0" expanded="false" />
+            <element signature="e#1981#2036#0" expanded="false" />
+            <element signature="e#2090#2258#0" expanded="false" />
+            <element signature="e#2300#2481#0" expanded="false" />
+            <element signature="e#2522#4848#0" expanded="false" />
+            <element signature="e#3497#3550#0" expanded="false" />
+            <element signature="e#3585#3639#0" expanded="false" />
+            <element signature="e#3764#3819#0" expanded="false" />
+            <element signature="e#3850#3895#0" expanded="false" />
+            <element signature="e#3940#3999#0" expanded="false" />
+            <element signature="e#4034#4085#0" expanded="false" />
+            <element signature="e#4135#4191#0" expanded="false" />
+            <element signature="e#4233#4290#0" expanded="false" />
+            <element signature="e#4350#4625#0" expanded="false" />
+            <element signature="e#4667#4848#0" expanded="false" />
+            <element signature="e#4888#6422#0" expanded="false" />
+            <element signature="e#6232#6422#0" expanded="false" />
+            <element signature="e#6454#6724#0" expanded="false" />
+            <element signature="e#6762#8469#0" expanded="false" />
+            <element signature="e#7492#7541#0" expanded="false" />
+            <element signature="e#7587#7647#0" expanded="false" />
+            <element signature="e#7687#7747#0" expanded="false" />
+            <element signature="e#7789#7842#0" expanded="false" />
+            <element signature="e#7882#7941#0" expanded="false" />
+            <element signature="e#8000#8162#0" expanded="false" />
+            <element signature="e#8201#8383#0" expanded="false" />
+            <element signature="e#8418#8469#0" expanded="false" />
+            <element signature="e#8505#10129#0" expanded="false" />
+            <element signature="e#10166#11628#0" expanded="false" />
+            <element signature="e#11678#13132#0" expanded="false" />
+            <element signature="e#13186#14525#0" expanded="false" />
+            <element signature="e#14576#16254#0" expanded="false" />
+            <element signature="e#16309#18101#0" expanded="false" />
+            <element signature="e#18142#19605#0" expanded="false" />
+            <element signature="e#19641#20694#0" expanded="false" />
+            <element signature="e#20741#22136#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#388#442#0" expanded="false" />
+            <element signature="e#497#533#0" expanded="false" />
+            <element signature="e#564#646#0" expanded="false" />
+            <element signature="e#679#865#0" expanded="false" />
+            <element signature="e#898#1095#0" expanded="false" />
+            <element signature="e#1128#1361#0" expanded="false" />
+            <element signature="e#1394#1545#0" expanded="false" />
+            <element signature="e#1578#1755#0" expanded="false" />
+            <element signature="e#1788#1945#0" expanded="false" />
+            <element signature="e#1978#2143#0" expanded="false" />
+            <element signature="e#2176#2379#0" expanded="false" />
+            <element signature="e#2412#2683#0" expanded="false" />
+            <element signature="e#2716#2948#0" expanded="false" />
+            <element signature="e#2981#3204#0" expanded="false" />
+            <element signature="e#3237#3437#0" expanded="false" />
+            <element signature="e#3470#3627#0" expanded="false" />
+            <element signature="e#3660#3855#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,16 +997,8 @@
             <element signature="e#4350#4625#0" expanded="false" />
             <element signature="e#4667#4848#0" expanded="false" />
             <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#5508#5562#0" expanded="false" />
-            <element signature="e#5607#5671#0" expanded="false" />
-            <element signature="e#5709#5771#0" expanded="false" />
-            <element signature="e#5810#5866#0" expanded="false" />
-            <element signature="e#5909#5965#0" expanded="false" />
-            <element signature="e#6024#6188#0" expanded="false" />
             <element signature="e#6232#6422#0" expanded="false" />
             <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6609#6654#0" expanded="false" />
-            <element signature="e#6687#6724#0" expanded="false" />
             <element signature="e#6762#8469#0" expanded="false" />
             <element signature="e#7492#7541#0" expanded="false" />
             <element signature="e#7587#7647#0" expanded="false" />
@@ -877,6 +1015,8 @@
             <element signature="e#14576#16254#0" expanded="false" />
             <element signature="e#16309#18101#0" expanded="false" />
             <element signature="e#18142#19605#0" expanded="false" />
+            <element signature="e#19641#20694#0" expanded="false" />
+            <element signature="e#20741#22136#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,7 +1026,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,6 +1037,8 @@
           <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#388#442#0" expanded="false" />
+            <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
             <element signature="e#679#865#0" expanded="false" />
             <element signature="e#898#1095#0" expanded="false" />
@@ -910,6 +1052,8 @@
             <element signature="e#2716#2948#0" expanded="false" />
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
+            <element signature="e#3470#3627#0" expanded="false" />
+            <element signature="e#3660#3855#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -944,16 +1088,8 @@
             <element signature="e#4350#4625#0" expanded="false" />
             <element signature="e#4667#4848#0" expanded="false" />
             <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#5508#5562#0" expanded="false" />
-            <element signature="e#5607#5671#0" expanded="false" />
-            <element signature="e#5709#5771#0" expanded="false" />
-            <element signature="e#5810#5866#0" expanded="false" />
-            <element signature="e#5909#5965#0" expanded="false" />
-            <element signature="e#6024#6188#0" expanded="false" />
             <element signature="e#6232#6422#0" expanded="false" />
             <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6609#6654#0" expanded="false" />
-            <element signature="e#6687#6724#0" expanded="false" />
             <element signature="e#6762#8469#0" expanded="false" />
             <element signature="e#7492#7541#0" expanded="false" />
             <element signature="e#7587#7647#0" expanded="false" />
@@ -970,6 +1106,8 @@
             <element signature="e#14576#16254#0" expanded="false" />
             <element signature="e#16309#18101#0" expanded="false" />
             <element signature="e#18142#19605#0" expanded="false" />
+            <element signature="e#19641#20694#0" expanded="false" />
+            <element signature="e#20741#22136#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -979,7 +1117,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -990,6 +1128,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#388#442#0" expanded="false" />
+            <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
             <element signature="e#679#865#0" expanded="false" />
             <element signature="e#898#1095#0" expanded="false" />
@@ -1003,6 +1143,8 @@
             <element signature="e#2716#2948#0" expanded="false" />
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
+            <element signature="e#3470#3627#0" expanded="false" />
+            <element signature="e#3660#3855#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1037,16 +1179,8 @@
             <element signature="e#4350#4625#0" expanded="false" />
             <element signature="e#4667#4848#0" expanded="false" />
             <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#5508#5562#0" expanded="false" />
-            <element signature="e#5607#5671#0" expanded="false" />
-            <element signature="e#5709#5771#0" expanded="false" />
-            <element signature="e#5810#5866#0" expanded="false" />
-            <element signature="e#5909#5965#0" expanded="false" />
-            <element signature="e#6024#6188#0" expanded="false" />
             <element signature="e#6232#6422#0" expanded="false" />
             <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6609#6654#0" expanded="false" />
-            <element signature="e#6687#6724#0" expanded="false" />
             <element signature="e#6762#8469#0" expanded="false" />
             <element signature="e#7492#7541#0" expanded="false" />
             <element signature="e#7587#7647#0" expanded="false" />
@@ -1063,6 +1197,8 @@
             <element signature="e#14576#16254#0" expanded="false" />
             <element signature="e#16309#18101#0" expanded="false" />
             <element signature="e#18142#19605#0" expanded="false" />
+            <element signature="e#19641#20694#0" expanded="false" />
+            <element signature="e#20741#22136#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1249,13 +1385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6558642">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python/Lib/site-packages/pymouse/x11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5944056">
@@ -1274,13 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1305,33 +1427,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
+    <entry file="file://$PROJECT_DIR$/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.75103736">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
-            <element signature="e#564#646#0" expanded="false" />
-            <element signature="e#679#865#0" expanded="false" />
-            <element signature="e#898#1095#0" expanded="false" />
-            <element signature="e#1128#1361#0" expanded="false" />
-            <element signature="e#1394#1545#0" expanded="false" />
-            <element signature="e#1578#1755#0" expanded="false" />
-            <element signature="e#1788#1945#0" expanded="false" />
-            <element signature="e#1978#2143#0" expanded="false" />
-            <element signature="e#2176#2379#0" expanded="false" />
-            <element signature="e#2412#2683#0" expanded="false" />
-            <element signature="e#2716#2948#0" expanded="false" />
-            <element signature="e#2981#3204#0" expanded="false" />
-            <element signature="e#3237#3437#0" expanded="false" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7183099">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/detailpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="459" column="43" selection-start-line="459" selection-start-column="43" selection-end-line="459" selection-end-column="43" />
+          <caret line="615" column="0" selection-start-line="615" selection-start-column="0" selection-end-line="615" selection-end-column="0" />
           <folding>
             <element signature="e#106#820#0" expanded="false" />
             <element signature="e#313#374#0" expanded="false" />
@@ -1358,16 +1475,8 @@
             <element signature="e#4350#4625#0" expanded="false" />
             <element signature="e#4667#4848#0" expanded="false" />
             <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#5508#5562#0" expanded="false" />
-            <element signature="e#5607#5671#0" expanded="false" />
-            <element signature="e#5709#5771#0" expanded="false" />
-            <element signature="e#5810#5866#0" expanded="false" />
-            <element signature="e#5909#5965#0" expanded="false" />
-            <element signature="e#6024#6188#0" expanded="false" />
             <element signature="e#6232#6422#0" expanded="false" />
             <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6609#6654#0" expanded="false" />
-            <element signature="e#6687#6724#0" expanded="false" />
             <element signature="e#6762#8469#0" expanded="false" />
             <element signature="e#7492#7541#0" expanded="false" />
             <element signature="e#7587#7647#0" expanded="false" />
@@ -1384,16 +1493,43 @@
             <element signature="e#14576#16254#0" expanded="false" />
             <element signature="e#16309#18101#0" expanded="false" />
             <element signature="e#18142#19605#0" expanded="false" />
+            <element signature="e#19641#20694#0" expanded="false" />
+            <element signature="e#20741#22136#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
+    <entry file="file://$PROJECT_DIR$/common/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6962025">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.75388026">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5277162">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#388#442#0" expanded="false" />
+            <element signature="e#497#533#0" expanded="false" />
+            <element signature="e#564#646#0" expanded="false" />
+            <element signature="e#679#865#0" expanded="false" />
+            <element signature="e#898#1095#0" expanded="false" />
+            <element signature="e#1128#1361#0" expanded="false" />
+            <element signature="e#1394#1545#0" expanded="false" />
+            <element signature="e#1578#1755#0" expanded="false" />
+            <element signature="e#1788#1945#0" expanded="false" />
+            <element signature="e#1978#2143#0" expanded="false" />
+            <element signature="e#2176#2379#0" expanded="false" />
+            <element signature="e#2412#2683#0" expanded="false" />
+            <element signature="e#2716#2948#0" expanded="false" />
+            <element signature="e#2981#3204#0" expanded="false" />
+            <element signature="e#3237#3437#0" expanded="false" />
+            <element signature="e#3470#3627#0" expanded="false" />
+            <element signature="e#3660#3855#0" expanded="false" />
           </folding>
         </state>
       </provider>

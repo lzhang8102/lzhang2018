@@ -614,19 +614,98 @@ class Rearrange_cancel(BasePage):
             return ""
 
 
+class Hide_Column(BasePage):
+    '''隐藏列'''
+    dropdown_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/i[3]")
+    hide_loc = ("xpath",".//*[@class='ltHide']")
+    hide_column_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/span")
+
+    def move_to_hide_column(self):
+        '''点击需要隐藏的列'''
+        self.move_to_element(self.hide_column_loc)
+
+    def click_dropdown_btn(self):
+        '''点击下拉箭头'''
+        js = 'document.getElementsByClassName("iconfont icon-arrow-down-radius-fill js_dropdown")[0].click();'
+        self.driver.execute_script(js)
+
+    def hide_btn(self):
+        '''点击隐藏'''
+        js = 'document.getElementsByClassName("ltHide")[0].click();'
+        self.driver.execute_script(js)
+
+    def hide_steps(self):
+        '''隐藏列流程'''
+        self.move_to_hide_column()
+        self.click_dropdown_btn()
+        self.hide_btn()
+
+    def hide_result(self):
+        '''获取隐藏后的结果'''
+        try:
+            t = self.find_element(self.hide_column_loc).text
+            return t
+        except:
+            print("隐藏失败，返回空字符")
+            return ""
+
+
+class Group_cloumn_on_column(BasePage):
+    '''从字段处分组'''
+    column_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/span")
+    dropdown_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/i[3]")
+    group_loc = ("xpath",".//*[@id='group']/li/button[3]")
+    update_cancel_btn_loc = ("xpath",".//*[@id='Aboard']/body/div[1]/div/div/div[3]/button[2]")
+    group_result_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/span")
+
+    def move_to_group_column(self):
+        '''鼠标悬停至要分组的字段'''
+        self.move_to_element(self.column_loc)
+
+    def click_dropdown_btn(self):
+        '''点击下拉箭头'''
+        js = 'document.getElementsByClassName("iconfont icon-arrow-down-radius-fill js_dropdown")[0].click();'
+        self.driver.execute_script(js)
+
+    def group_btn(self):
+        '''点击分组'''
+        js = 'document.querySelectorAll("#group>li>button")[2].click();'
+        self.driver.execute_script(js)
+
+    def update_cancel_btn(self):
+        '''点击更新或取消分组'''
+        self.click(self.update_cancel_btn_loc)
+
+    def group_field_steps(self):
+        '''分组流程'''
+        self.move_to_group_column()
+        self.click_dropdown_btn()
+        self.group_btn()
+        self.update_cancel_btn()
+
+    def group_result(self):
+        '''获取分组结果'''
+        try:
+            t = self.find_element(self.group_result_loc).text
+            return t
+        except:
+            print("分组失败，返回空字符")
+            return ""
+
+
 if __name__ == "__main__":
     driver = webdriver.Firefox()
     login = LoginPage(driver)
     rpt = Open_Report(driver)
-    all_columns = Rearrange_all_columns_to_right(driver)
+    group_field = Group_cloumn_on_column(driver)
     url = "https://demo.jintelhealth.com/Analytics/#!/login"
     username = "lz_admin"
     psw = "Ghc2018!"
     login.login_process(url,username,psw)
     rpt.open_steps()
     time.sleep(3)
-    all_columns.all_columns_to_right_steps()
-    print(all_columns.all_to_right_result())
+    group_field.group_field_steps()
+    print(group_field.group_result())
 
 
 
