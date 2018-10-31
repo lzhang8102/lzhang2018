@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/page/detailpage.py" line="795" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="faac30f0-31eb-4007-b8a3-3953c004a05d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -19,22 +22,28 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/test$run_all__1_.coverage" NAME="run_all (1) Coverage Results" MODIFIED="1539853627137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_15__3_.coverage" NAME="Unittest Test_Detail.test_15 (3) Coverage Results" MODIFIED="1540783548108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test04.coverage" NAME="Unittest Test_Detail.test04 Coverage Results" MODIFIED="1533289714744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_04__2_.coverage" NAME="Unittest Test_Detail.test_04 (2) Coverage Results" MODIFIED="1534320709467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_08__2_.coverage" NAME="Unittest Test_Detail.test_08 (2) Coverage Results" MODIFIED="1540193622828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_02__2_.coverage" NAME="Unittest Test_Detail.test_02 (2) Coverage Results" MODIFIED="1532420866041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_17__3_.coverage" NAME="Unittest Test_Detail.test_17 (3) Coverage Results" MODIFIED="1540796449770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail__4_.coverage" NAME="Unittests in Test_Detail (4) Coverage Results" MODIFIED="1533633708165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_12__1_.coverage" NAME="Unittest Test_Detail.test_12 (1) Coverage Results" MODIFIED="1540197033172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/test$detailpage.coverage" NAME="detailpage Coverage Results" MODIFIED="1540374428226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_22.coverage" NAME="Unittest Test_Detail.test_22 Coverage Results" MODIFIED="1540889814161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$detailpage.coverage" NAME="detailpage Coverage Results" MODIFIED="1540966409287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test__1_.coverage" NAME="Unittests in Test (1) Coverage Results" MODIFIED="1531994356469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$secondary_package.coverage" NAME="secondary_package Coverage Results" MODIFIED="1528276447922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_13.coverage" NAME="Unittest Test_Detail.test_13 Coverage Results" MODIFIED="1540370405535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test.coverage" NAME="Unittests in Test Coverage Results" MODIFIED="1532401119519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_01__3_.coverage" NAME="Unittest Test_Detail.test_01 (3) Coverage Results" MODIFIED="1535525512122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_16.coverage" NAME="Unittest Test_Detail.test_16 Coverage Results" MODIFIED="1540795255533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$cls_login.coverage" NAME="cls_login Coverage Results" MODIFIED="1532421481041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_03__3_.coverage" NAME="Unittest Test_Detail.test_03 (3) Coverage Results" MODIFIED="1533779551568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
-    <SUITE FILE_PATH="coverage/test$Unittests_in_aws_detail.coverage" NAME="Unittests in aws_detail Coverage Results" MODIFIED="1540191105324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_19.coverage" NAME="Unittest Test_Detail.test_19 Coverage Results" MODIFIED="1540869257747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittests_in_aws_detail.coverage" NAME="Unittests in aws_detail Coverage Results" MODIFIED="1540970760600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1538040500002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_18__1_.coverage" NAME="Unittest Test_Detail.test_18 (1) Coverage Results" MODIFIED="1540799669982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_08__3_.coverage" NAME="Unittest Test_Detail.test_08 (3) Coverage Results" MODIFIED="1540193893257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$test_detail.coverage" NAME="test_detail Coverage Results" MODIFIED="1533622660159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_11__2_.coverage" NAME="Unittest Test_Detail.test_11 (2) Coverage Results" MODIFIED="1540260062051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -44,19 +53,27 @@
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_12__2_.coverage" NAME="Unittest Test_Detail.test_12 (2) Coverage Results" MODIFIED="1540259087979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail.coverage" NAME="Unittests in Test_Detail Coverage Results" MODIFIED="1536126639689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_10.coverage" NAME="Unittest Test_Detail.test_10 Coverage Results" MODIFIED="1540273937071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/test$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1540274041966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_15__2_.coverage" NAME="Unittest Test_Detail.test_15 (2) Coverage Results" MODIFIED="1540784382516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1540890823820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$login_open_detail.coverage" NAME="login_open_detail Coverage Results" MODIFIED="1534919644989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_09.coverage" NAME="Unittest Test_Detail.test_09 Coverage Results" MODIFIED="1540174453048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Platform_test01.coverage" NAME="Unittest Platform.test01 Coverage Results" MODIFIED="1528267298990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_15.coverage" NAME="Unittest Test_Detail.test_15 Coverage Results" MODIFIED="1540795144759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$aws_login_open_detail__1_.coverage" NAME="aws_login_open_detail (1) Coverage Results" MODIFIED="1536130121387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_17__2_.coverage" NAME="Unittest Test_Detail.test_17 (2) Coverage Results" MODIFIED="1540796393242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail__1_.coverage" NAME="Unittests in Test_Detail (1) Coverage Results" MODIFIED="1533633239743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$aws_fav.coverage" NAME="aws_fav Coverage Results" MODIFIED="1539847657882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_21.coverage" NAME="Unittest Test_Detail.test_21 Coverage Results" MODIFIED="1540888758272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_18__2_.coverage" NAME="Unittest Test_Detail.test_18 (2) Coverage Results" MODIFIED="1540801180231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_03.coverage" NAME="Unittest Test_Detail.test_03 Coverage Results" MODIFIED="1534321706521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_01__2_.coverage" NAME="Unittest Test_Detail.test_01 (2) Coverage Results" MODIFIED="1535525380830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test__2_.coverage" NAME="Unittests in Test (2) Coverage Results" MODIFIED="1531994463035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_17.coverage" NAME="Unittest Test_Detail.test_17 Coverage Results" MODIFIED="1540799512674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1528447565928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_20.coverage" NAME="Unittest Test_Detail.test_20 Coverage Results" MODIFIED="1540881320305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_03__2_.coverage" NAME="Unittest Test_Detail.test_03 (2) Coverage Results" MODIFIED="1533720263979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_11.coverage" NAME="Unittest Test_Detail.test_11 Coverage Results" MODIFIED="1540259609943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_18__3_.coverage" NAME="Unittest Test_Detail.test_18 (3) Coverage Results" MODIFIED="1540801591698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_05.coverage" NAME="Unittest Test_Detail.test_05 Coverage Results" MODIFIED="1536126797482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_08.coverage" NAME="Unittest Test_Detail.test_08 Coverage Results" MODIFIED="1540193214560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$login_open_rpt.coverage" NAME="login_open_rpt Coverage Results" MODIFIED="1533629180906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
@@ -66,10 +83,13 @@
     <SUITE FILE_PATH="coverage/test$cls_location.coverage" NAME="cls_location Coverage Results" MODIFIED="1527669563137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fengzhuang" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail__2_.coverage" NAME="Unittests in Test_Detail (2) Coverage Results" MODIFIED="1533630799709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$test.coverage" NAME="test Coverage Results" MODIFIED="1534835564576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
+    <SUITE FILE_PATH="coverage/test$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1540968733012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$login_liushuizhang.coverage" NAME="login_liushuizhang Coverage Results" MODIFIED="1531711825063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_15__1_.coverage" NAME="Unittest Test_Detail.test_15 (1) Coverage Results" MODIFIED="1540784100296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1533713187696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_02.coverage" NAME="Unittest Test_Detail.test_02 Coverage Results" MODIFIED="1533718278600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_test_login_liushuizhang.coverage" NAME="Unittests in test_login_liushuizhang Coverage Results" MODIFIED="1528270167655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_17__1_.coverage" NAME="Unittest Test_Detail.test_17 (1) Coverage Results" MODIFIED="1540796315475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$aws_login_open_detail.coverage" NAME="aws_login_open_detail Coverage Results" MODIFIED="1535526735263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_02__3_.coverage" NAME="Unittest Test_Detail.test_02 (3) Coverage Results" MODIFIED="1532421105619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittests_in___init__.coverage" NAME="Unittests in __init__ Coverage Results" MODIFIED="1532418414298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
@@ -77,15 +97,19 @@
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_03__1_.coverage" NAME="Unittest Test_Detail.test_03 (1) Coverage Results" MODIFIED="1534321785499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_01.coverage" NAME="Unittest Test_Detail.test_01 Coverage Results" MODIFIED="1534921089316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_07.coverage" NAME="Unittest Test_Detail.test_07 Coverage Results" MODIFIED="1539855599270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_24.coverage" NAME="Unittest Test_Detail.test_24 Coverage Results" MODIFIED="1540957647942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_15__4_.coverage" NAME="Unittest Test_Detail.test_15 (4) Coverage Results" MODIFIED="1540783945893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_01__1_.coverage" NAME="Unittest Test_Detail.test_01 (1) Coverage Results" MODIFIED="1535526606993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_06__1_.coverage" NAME="Unittest Test_Detail.test_06 (1) Coverage Results" MODIFIED="1540190136169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Platform_test01__1_.coverage" NAME="Unittest Platform.test01 (1) Coverage Results" MODIFIED="1527649354906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_04__1_.coverage" NAME="Unittest Test_Detail.test_04 (1) Coverage Results" MODIFIED="1534326282503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
+    <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_18.coverage" NAME="Unittest Test_Detail.test_18 Coverage Results" MODIFIED="1540800060257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_aws_detail__1_.coverage" NAME="Unittests in aws_detail (1) Coverage Results" MODIFIED="1539846508061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_login_test.coverage" NAME="Unittests in login_test Coverage Results" MODIFIED="1531817346624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1528447385310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_06.coverage" NAME="Unittest Test_Detail.test_06 Coverage Results" MODIFIED="1540190000357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_01__4_.coverage" NAME="Unittest Test_Detail.test_01 (4) Coverage Results" MODIFIED="1535525795084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
+    <SUITE FILE_PATH="coverage/test$yyy.coverage" NAME="yyy Coverage Results" MODIFIED="1540970167383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$Unittests_in_Test_Detail__3_.coverage" NAME="Unittests in Test_Detail (3) Coverage Results" MODIFIED="1533632242897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/platform_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_04__4_.coverage" NAME="Unittest Test_Detail.test_04 (4) Coverage Results" MODIFIED="1534315685944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aws_test" />
     <SUITE FILE_PATH="coverage/test$Unittest_Test_Detail_test_08__1_.coverage" NAME="Unittest Test_Detail.test_08 (1) Coverage Results" MODIFIED="1540193378793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -101,93 +125,7 @@
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="aws_detail.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5277162">
-              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-                <element signature="e#388#442#0" expanded="false" />
-                <element signature="e#497#533#0" expanded="false" />
-                <element signature="e#564#646#0" expanded="false" />
-                <element signature="e#679#865#0" expanded="false" />
-                <element signature="e#898#1095#0" expanded="false" />
-                <element signature="e#1128#1361#0" expanded="false" />
-                <element signature="e#1394#1545#0" expanded="false" />
-                <element signature="e#1578#1755#0" expanded="false" />
-                <element signature="e#1788#1945#0" expanded="false" />
-                <element signature="e#1978#2143#0" expanded="false" />
-                <element signature="e#2176#2379#0" expanded="false" />
-                <element signature="e#2412#2683#0" expanded="false" />
-                <element signature="e#2716#2948#0" expanded="false" />
-                <element signature="e#2981#3204#0" expanded="false" />
-                <element signature="e#3237#3437#0" expanded="false" />
-                <element signature="e#3470#3627#0" expanded="false" />
-                <element signature="e#3660#3855#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detailpage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/detailpage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="615" column="0" selection-start-line="615" selection-start-column="0" selection-end-line="615" selection-end-column="0" />
-              <folding>
-                <element signature="e#106#820#0" expanded="false" />
-                <element signature="e#313#374#0" expanded="false" />
-                <element signature="e#410#463#0" expanded="false" />
-                <element signature="e#524#599#0" expanded="false" />
-                <element signature="e#641#820#0" expanded="false" />
-                <element signature="e#861#2481#0" expanded="false" />
-                <element signature="e#1596#1649#0" expanded="false" />
-                <element signature="e#1684#1738#0" expanded="false" />
-                <element signature="e#1788#1844#0" expanded="false" />
-                <element signature="e#1888#1946#0" expanded="false" />
-                <element signature="e#1981#2036#0" expanded="false" />
-                <element signature="e#2090#2258#0" expanded="false" />
-                <element signature="e#2300#2481#0" expanded="false" />
-                <element signature="e#2522#4848#0" expanded="false" />
-                <element signature="e#3497#3550#0" expanded="false" />
-                <element signature="e#3585#3639#0" expanded="false" />
-                <element signature="e#3764#3819#0" expanded="false" />
-                <element signature="e#3850#3895#0" expanded="false" />
-                <element signature="e#3940#3999#0" expanded="false" />
-                <element signature="e#4034#4085#0" expanded="false" />
-                <element signature="e#4135#4191#0" expanded="false" />
-                <element signature="e#4233#4290#0" expanded="false" />
-                <element signature="e#4350#4625#0" expanded="false" />
-                <element signature="e#4667#4848#0" expanded="false" />
-                <element signature="e#4888#6422#0" expanded="false" />
-                <element signature="e#6232#6422#0" expanded="false" />
-                <element signature="e#6454#6724#0" expanded="false" />
-                <element signature="e#6762#8469#0" expanded="false" />
-                <element signature="e#7492#7541#0" expanded="false" />
-                <element signature="e#7587#7647#0" expanded="false" />
-                <element signature="e#7687#7747#0" expanded="false" />
-                <element signature="e#7789#7842#0" expanded="false" />
-                <element signature="e#7882#7941#0" expanded="false" />
-                <element signature="e#8000#8162#0" expanded="false" />
-                <element signature="e#8201#8383#0" expanded="false" />
-                <element signature="e#8418#8469#0" expanded="false" />
-                <element signature="e#8505#10129#0" expanded="false" />
-                <element signature="e#10166#11628#0" expanded="false" />
-                <element signature="e#11678#13132#0" expanded="false" />
-                <element signature="e#13186#14525#0" expanded="false" />
-                <element signature="e#14576#16254#0" expanded="false" />
-                <element signature="e#16309#18101#0" expanded="false" />
-                <element signature="e#18142#19605#0" expanded="false" />
-                <element signature="e#19641#20694#0" expanded="false" />
-                <element signature="e#20741#22136#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,6 +171,8 @@
         <option value="$PROJECT_DIR$/case/aws_fav.py" />
         <option value="$PROJECT_DIR$/page/detailpage.py" />
         <option value="$PROJECT_DIR$/case/aws_detail.py" />
+        <option value="$PROJECT_DIR$/xxx.py" />
+        <option value="$PROJECT_DIR$/yyy.py" />
       </list>
     </option>
   </component>
@@ -272,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -282,7 +223,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -361,7 +301,7 @@
       <recent name="D:\test\fengzhuang" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Test_Detail.test_14">
+  <component name="RunManager" selected="Python tests.Unittests in aws_detail">
     <configuration default="false" name="detailpage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,7 +320,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest Test_Detail.test_10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest Test_Detail.test_24" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -393,7 +333,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
       <option name="CLASS_NAME" value="Test_Detail" />
-      <option name="METHOD_NAME" value="test_10" />
+      <option name="METHOD_NAME" value="test_24" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -403,7 +343,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="xxx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -416,35 +356,30 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xxx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest Test_Detail.test_13" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="yyy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
-      <option name="CLASS_NAME" value="Test_Detail" />
-      <option name="METHOD_NAME" value="test_13" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yyy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest Test_Detail.test_14" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in aws_detail" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -456,10 +391,10 @@
       <module name="test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/aws_detail.py" />
-      <option name="CLASS_NAME" value="Test_Detail" />
-      <option name="METHOD_NAME" value="test_14" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -662,18 +597,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.detailpage" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run_all" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_13" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_14" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_24" />
+      <item index="2" class="java.lang.String" itemvalue="Python.xxx" />
+      <item index="3" class="java.lang.String" itemvalue="Python.yyy" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in aws_detail" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_14" />
-        <item index="1" class="java.lang.String" itemvalue="Python.detailpage" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_13" />
-        <item index="3" class="java.lang.String" itemvalue="Python.run_all" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_10" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in aws_detail" />
+        <item index="1" class="java.lang.String" itemvalue="Python.yyy" />
+        <item index="2" class="java.lang.String" itemvalue="Python.xxx" />
+        <item index="3" class="java.lang.String" itemvalue="Python.detailpage" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Test_Detail.test_24" />
       </list>
     </recent_temporary>
   </component>
@@ -691,48 +626,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Test_Detail_test_10 - 2018.10.23 at 13h 53m 10s.xml">
-      <configuration name="Unittest Test_Detail.test_10" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_18_(3) - 2018.10.29 at 16h 27m 27s.xml">
+      <configuration name="Unittest Test_Detail.test_18 (3)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_11 - 2018.10.23 at 09h 47m 20s.xml">
-      <configuration name="Unittest Test_Detail.test_11" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_19 - 2018.10.30 at 11h 16m 02s.xml">
+      <configuration name="Unittest Test_Detail.test_19" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_11 - 2018.10.23 at 09h 52m 14s.xml">
-      <configuration name="Unittest Test_Detail.test_11" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_20 - 2018.10.30 at 14h 34m 26s.xml">
+      <configuration name="Unittest Test_Detail.test_20" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_11 - 2018.10.23 at 09h 55m 19s.xml">
-      <configuration name="Unittest Test_Detail.test_11" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_20 - 2018.10.30 at 14h 38m 06s.xml">
+      <configuration name="Unittest Test_Detail.test_20" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_11_(1) - 2018.10.23 at 09h 57m 38s.xml">
-      <configuration name="Unittest Test_Detail.test_11 (1)" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_21 - 2018.10.30 at 16h 41m 19s.xml">
+      <configuration name="Unittest Test_Detail.test_21" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_11_(2) - 2018.10.23 at 10h 02m 47s.xml">
-      <configuration name="Unittest Test_Detail.test_11 (2)" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_22 - 2018.10.30 at 16h 58m 43s.xml">
+      <configuration name="Unittest Test_Detail.test_22" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_12_(2) - 2018.10.23 at 09h 45m 41s.xml">
-      <configuration name="Unittest Test_Detail.test_12 (2)" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_24 - 2018.10.31 at 11h 42m 00s.xml">
+      <configuration name="Unittest Test_Detail.test_24" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_13 - 2018.10.24 at 16h 41m 03s.xml">
-      <configuration name="Unittest Test_Detail.test_13" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_24 - 2018.10.31 at 11h 47m 22s.xml">
+      <configuration name="Unittest Test_Detail.test_24" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_Detail_test_14 - 2018.10.24 at 17h 51m 02s.xml">
-      <configuration name="Unittest Test_Detail.test_14" configurationId="tests" />
+    <history-entry file="Unittest_Test_Detail_test_24 - 2018.10.31 at 11h 48m 25s.xml">
+      <configuration name="Unittest Test_Detail.test_24" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_aws_detail - 2018.10.22 at 14h 54m 20s.xml">
+    <history-entry file="Unittests_in_aws_detail - 2018.10.31 at 15h 31m 52s.xml">
       <configuration name="Unittests in aws_detail" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24447949" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -763,7 +698,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="84" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -777,84 +712,12 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page/detailpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#820#0" expanded="false" />
-            <element signature="e#313#374#0" expanded="false" />
-            <element signature="e#410#463#0" expanded="false" />
-            <element signature="e#524#599#0" expanded="false" />
-            <element signature="e#641#820#0" expanded="false" />
-            <element signature="e#861#2481#0" expanded="false" />
-            <element signature="e#1596#1649#0" expanded="false" />
-            <element signature="e#1684#1738#0" expanded="false" />
-            <element signature="e#1788#1844#0" expanded="false" />
-            <element signature="e#1888#1946#0" expanded="false" />
-            <element signature="e#1981#2036#0" expanded="false" />
-            <element signature="e#2090#2258#0" expanded="false" />
-            <element signature="e#2300#2481#0" expanded="false" />
-            <element signature="e#2522#4848#0" expanded="false" />
-            <element signature="e#3497#3550#0" expanded="false" />
-            <element signature="e#3585#3639#0" expanded="false" />
-            <element signature="e#3764#3819#0" expanded="false" />
-            <element signature="e#3850#3895#0" expanded="false" />
-            <element signature="e#3940#3999#0" expanded="false" />
-            <element signature="e#4034#4085#0" expanded="false" />
-            <element signature="e#4135#4191#0" expanded="false" />
-            <element signature="e#4233#4290#0" expanded="false" />
-            <element signature="e#4350#4625#0" expanded="false" />
-            <element signature="e#4667#4848#0" expanded="false" />
-            <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#6232#6422#0" expanded="false" />
-            <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6762#8469#0" expanded="false" />
-            <element signature="e#7492#7541#0" expanded="false" />
-            <element signature="e#7587#7647#0" expanded="false" />
-            <element signature="e#7687#7747#0" expanded="false" />
-            <element signature="e#7789#7842#0" expanded="false" />
-            <element signature="e#7882#7941#0" expanded="false" />
-            <element signature="e#8000#8162#0" expanded="false" />
-            <element signature="e#8201#8383#0" expanded="false" />
-            <element signature="e#8418#8469#0" expanded="false" />
-            <element signature="e#8505#10129#0" expanded="false" />
-            <element signature="e#10166#11628#0" expanded="false" />
-            <element signature="e#11678#13132#0" expanded="false" />
-            <element signature="e#13186#14525#0" expanded="false" />
-            <element signature="e#14576#16254#0" expanded="false" />
-            <element signature="e#16309#18101#0" expanded="false" />
-            <element signature="e#18142#19605#0" expanded="false" />
-            <element signature="e#19641#20694#0" expanded="false" />
-            <element signature="e#20741#22136#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
             <element signature="e#388#442#0" expanded="false" />
             <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
@@ -871,7 +734,17 @@
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
             <element signature="e#3470#3627#0" expanded="false" />
-            <element signature="e#3660#3855#0" expanded="false" />
+            <element signature="e#3660#3857#0" expanded="false" />
+            <element signature="e#3890#4074#0" expanded="false" />
+            <element signature="e#4107#4298#0" expanded="false" />
+            <element signature="e#4331#4554#0" expanded="false" />
+            <element signature="e#4587#4784#0" expanded="false" />
+            <element signature="e#4817#5023#0" expanded="false" />
+            <element signature="e#5056#5248#0" expanded="false" />
+            <element signature="e#5281#5485#0" expanded="false" />
+            <element signature="e#5518#5705#0" expanded="false" />
+            <element signature="e#5738#5910#0" expanded="false" />
+            <element signature="e#5943#6126#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -881,51 +754,62 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="650" column="32" selection-start-line="650" selection-start-column="32" selection-end-line="650" selection-end-column="32" />
           <folding>
-            <element signature="e#106#820#0" expanded="false" />
-            <element signature="e#313#374#0" expanded="false" />
-            <element signature="e#410#463#0" expanded="false" />
-            <element signature="e#524#599#0" expanded="false" />
-            <element signature="e#641#820#0" expanded="false" />
-            <element signature="e#861#2481#0" expanded="false" />
-            <element signature="e#1596#1649#0" expanded="false" />
-            <element signature="e#1684#1738#0" expanded="false" />
-            <element signature="e#1788#1844#0" expanded="false" />
-            <element signature="e#1888#1946#0" expanded="false" />
-            <element signature="e#1981#2036#0" expanded="false" />
-            <element signature="e#2090#2258#0" expanded="false" />
-            <element signature="e#2300#2481#0" expanded="false" />
-            <element signature="e#2522#4848#0" expanded="false" />
-            <element signature="e#3497#3550#0" expanded="false" />
-            <element signature="e#3585#3639#0" expanded="false" />
-            <element signature="e#3764#3819#0" expanded="false" />
-            <element signature="e#3850#3895#0" expanded="false" />
-            <element signature="e#3940#3999#0" expanded="false" />
-            <element signature="e#4034#4085#0" expanded="false" />
-            <element signature="e#4135#4191#0" expanded="false" />
-            <element signature="e#4233#4290#0" expanded="false" />
-            <element signature="e#4350#4625#0" expanded="false" />
-            <element signature="e#4667#4848#0" expanded="false" />
-            <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#6232#6422#0" expanded="false" />
-            <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6762#8469#0" expanded="false" />
-            <element signature="e#7492#7541#0" expanded="false" />
-            <element signature="e#7587#7647#0" expanded="false" />
-            <element signature="e#7687#7747#0" expanded="false" />
-            <element signature="e#7789#7842#0" expanded="false" />
-            <element signature="e#7882#7941#0" expanded="false" />
-            <element signature="e#8000#8162#0" expanded="false" />
-            <element signature="e#8201#8383#0" expanded="false" />
-            <element signature="e#8418#8469#0" expanded="false" />
-            <element signature="e#8505#10129#0" expanded="false" />
-            <element signature="e#10166#11628#0" expanded="false" />
-            <element signature="e#11678#13132#0" expanded="false" />
-            <element signature="e#13186#14525#0" expanded="false" />
-            <element signature="e#14576#16254#0" expanded="false" />
-            <element signature="e#16309#18101#0" expanded="false" />
-            <element signature="e#18142#19605#0" expanded="false" />
-            <element signature="e#19641#20694#0" expanded="false" />
-            <element signature="e#20741#22136#0" expanded="false" />
+            <element signature="e#16#41#0" expanded="true" />
+            <element signature="e#153#867#0" expanded="false" />
+            <element signature="e#360#421#0" expanded="false" />
+            <element signature="e#457#510#0" expanded="false" />
+            <element signature="e#571#646#0" expanded="false" />
+            <element signature="e#688#867#0" expanded="false" />
+            <element signature="e#908#2528#0" expanded="false" />
+            <element signature="e#1643#1696#0" expanded="false" />
+            <element signature="e#1731#1785#0" expanded="false" />
+            <element signature="e#1835#1891#0" expanded="false" />
+            <element signature="e#1935#1993#0" expanded="false" />
+            <element signature="e#2028#2083#0" expanded="false" />
+            <element signature="e#2137#2305#0" expanded="false" />
+            <element signature="e#2347#2528#0" expanded="false" />
+            <element signature="e#2569#4895#0" expanded="false" />
+            <element signature="e#3544#3597#0" expanded="false" />
+            <element signature="e#3632#3686#0" expanded="false" />
+            <element signature="e#3811#3866#0" expanded="false" />
+            <element signature="e#3897#3942#0" expanded="false" />
+            <element signature="e#3987#4046#0" expanded="false" />
+            <element signature="e#4081#4132#0" expanded="false" />
+            <element signature="e#4182#4238#0" expanded="false" />
+            <element signature="e#4280#4337#0" expanded="false" />
+            <element signature="e#4397#4672#0" expanded="false" />
+            <element signature="e#4714#4895#0" expanded="false" />
+            <element signature="e#4935#6469#0" expanded="false" />
+            <element signature="e#6279#6469#0" expanded="false" />
+            <element signature="e#6501#6771#0" expanded="false" />
+            <element signature="e#6809#8516#0" expanded="false" />
+            <element signature="e#7539#7588#0" expanded="false" />
+            <element signature="e#7634#7694#0" expanded="false" />
+            <element signature="e#7734#7794#0" expanded="false" />
+            <element signature="e#7836#7889#0" expanded="false" />
+            <element signature="e#7929#7988#0" expanded="false" />
+            <element signature="e#8047#8209#0" expanded="false" />
+            <element signature="e#8248#8430#0" expanded="false" />
+            <element signature="e#8465#8516#0" expanded="false" />
+            <element signature="e#8552#10176#0" expanded="false" />
+            <element signature="e#10213#11675#0" expanded="false" />
+            <element signature="e#11725#13179#0" expanded="false" />
+            <element signature="e#13233#14572#0" expanded="false" />
+            <element signature="e#14623#16301#0" expanded="false" />
+            <element signature="e#16356#18148#0" expanded="false" />
+            <element signature="e#18189#19652#0" expanded="false" />
+            <element signature="e#19688#20741#0" expanded="false" />
+            <element signature="e#20788#22183#0" expanded="false" />
+            <element signature="e#22220#22697#0" expanded="false" />
+            <element signature="e#22734#23222#0" expanded="false" />
+            <element signature="e#23263#24046#0" expanded="false" />
+            <element signature="e#24084#24860#0" expanded="false" />
+            <element signature="e#24902#25666#0" expanded="false" />
+            <element signature="e#25712#26524#0" expanded="false" />
+            <element signature="e#26570#27970#0" expanded="false" />
+            <element signature="e#28013#29412#0" expanded="false" />
+            <element signature="e#29448#31042#0" expanded="false" />
+            <element signature="e#31909#32717#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -934,9 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,7 +826,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
             <element signature="e#388#442#0" expanded="false" />
             <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
@@ -962,7 +843,17 @@
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
             <element signature="e#3470#3627#0" expanded="false" />
-            <element signature="e#3660#3855#0" expanded="false" />
+            <element signature="e#3660#3857#0" expanded="false" />
+            <element signature="e#3890#4074#0" expanded="false" />
+            <element signature="e#4107#4298#0" expanded="false" />
+            <element signature="e#4331#4554#0" expanded="false" />
+            <element signature="e#4587#4784#0" expanded="false" />
+            <element signature="e#4817#5023#0" expanded="false" />
+            <element signature="e#5056#5248#0" expanded="false" />
+            <element signature="e#5281#5485#0" expanded="false" />
+            <element signature="e#5518#5705#0" expanded="false" />
+            <element signature="e#5738#5910#0" expanded="false" />
+            <element signature="e#5943#6126#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -972,51 +863,62 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="623" column="37" selection-start-line="623" selection-start-column="37" selection-end-line="623" selection-end-column="37" />
           <folding>
-            <element signature="e#106#820#0" expanded="false" />
-            <element signature="e#313#374#0" expanded="false" />
-            <element signature="e#410#463#0" expanded="false" />
-            <element signature="e#524#599#0" expanded="false" />
-            <element signature="e#641#820#0" expanded="false" />
-            <element signature="e#861#2481#0" expanded="false" />
-            <element signature="e#1596#1649#0" expanded="false" />
-            <element signature="e#1684#1738#0" expanded="false" />
-            <element signature="e#1788#1844#0" expanded="false" />
-            <element signature="e#1888#1946#0" expanded="false" />
-            <element signature="e#1981#2036#0" expanded="false" />
-            <element signature="e#2090#2258#0" expanded="false" />
-            <element signature="e#2300#2481#0" expanded="false" />
-            <element signature="e#2522#4848#0" expanded="false" />
-            <element signature="e#3497#3550#0" expanded="false" />
-            <element signature="e#3585#3639#0" expanded="false" />
-            <element signature="e#3764#3819#0" expanded="false" />
-            <element signature="e#3850#3895#0" expanded="false" />
-            <element signature="e#3940#3999#0" expanded="false" />
-            <element signature="e#4034#4085#0" expanded="false" />
-            <element signature="e#4135#4191#0" expanded="false" />
-            <element signature="e#4233#4290#0" expanded="false" />
-            <element signature="e#4350#4625#0" expanded="false" />
-            <element signature="e#4667#4848#0" expanded="false" />
-            <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#6232#6422#0" expanded="false" />
-            <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6762#8469#0" expanded="false" />
-            <element signature="e#7492#7541#0" expanded="false" />
-            <element signature="e#7587#7647#0" expanded="false" />
-            <element signature="e#7687#7747#0" expanded="false" />
-            <element signature="e#7789#7842#0" expanded="false" />
-            <element signature="e#7882#7941#0" expanded="false" />
-            <element signature="e#8000#8162#0" expanded="false" />
-            <element signature="e#8201#8383#0" expanded="false" />
-            <element signature="e#8418#8469#0" expanded="false" />
-            <element signature="e#8505#10129#0" expanded="false" />
-            <element signature="e#10166#11628#0" expanded="false" />
-            <element signature="e#11678#13132#0" expanded="false" />
-            <element signature="e#13186#14525#0" expanded="false" />
-            <element signature="e#14576#16254#0" expanded="false" />
-            <element signature="e#16309#18101#0" expanded="false" />
-            <element signature="e#18142#19605#0" expanded="false" />
-            <element signature="e#19641#20694#0" expanded="false" />
-            <element signature="e#20741#22136#0" expanded="false" />
+            <element signature="e#16#41#0" expanded="true" />
+            <element signature="e#153#867#0" expanded="false" />
+            <element signature="e#360#421#0" expanded="false" />
+            <element signature="e#457#510#0" expanded="false" />
+            <element signature="e#571#646#0" expanded="false" />
+            <element signature="e#688#867#0" expanded="false" />
+            <element signature="e#908#2528#0" expanded="false" />
+            <element signature="e#1643#1696#0" expanded="false" />
+            <element signature="e#1731#1785#0" expanded="false" />
+            <element signature="e#1835#1891#0" expanded="false" />
+            <element signature="e#1935#1993#0" expanded="false" />
+            <element signature="e#2028#2083#0" expanded="false" />
+            <element signature="e#2137#2305#0" expanded="false" />
+            <element signature="e#2347#2528#0" expanded="false" />
+            <element signature="e#2569#4895#0" expanded="false" />
+            <element signature="e#3544#3597#0" expanded="false" />
+            <element signature="e#3632#3686#0" expanded="false" />
+            <element signature="e#3811#3866#0" expanded="false" />
+            <element signature="e#3897#3942#0" expanded="false" />
+            <element signature="e#3987#4046#0" expanded="false" />
+            <element signature="e#4081#4132#0" expanded="false" />
+            <element signature="e#4182#4238#0" expanded="false" />
+            <element signature="e#4280#4337#0" expanded="false" />
+            <element signature="e#4397#4672#0" expanded="false" />
+            <element signature="e#4714#4895#0" expanded="false" />
+            <element signature="e#4935#6469#0" expanded="false" />
+            <element signature="e#6279#6469#0" expanded="false" />
+            <element signature="e#6501#6771#0" expanded="false" />
+            <element signature="e#6809#8516#0" expanded="false" />
+            <element signature="e#7539#7588#0" expanded="false" />
+            <element signature="e#7634#7694#0" expanded="false" />
+            <element signature="e#7734#7794#0" expanded="false" />
+            <element signature="e#7836#7889#0" expanded="false" />
+            <element signature="e#7929#7988#0" expanded="false" />
+            <element signature="e#8047#8209#0" expanded="false" />
+            <element signature="e#8248#8430#0" expanded="false" />
+            <element signature="e#8465#8516#0" expanded="false" />
+            <element signature="e#8552#10176#0" expanded="false" />
+            <element signature="e#10213#11675#0" expanded="false" />
+            <element signature="e#11725#13179#0" expanded="false" />
+            <element signature="e#13233#14572#0" expanded="false" />
+            <element signature="e#14623#16301#0" expanded="false" />
+            <element signature="e#16356#18148#0" expanded="false" />
+            <element signature="e#18189#19652#0" expanded="false" />
+            <element signature="e#19688#20741#0" expanded="false" />
+            <element signature="e#20788#22183#0" expanded="false" />
+            <element signature="e#22220#22697#0" expanded="false" />
+            <element signature="e#22734#23222#0" expanded="false" />
+            <element signature="e#23263#24046#0" expanded="false" />
+            <element signature="e#24084#24860#0" expanded="false" />
+            <element signature="e#24902#25666#0" expanded="false" />
+            <element signature="e#25712#26524#0" expanded="false" />
+            <element signature="e#26570#27970#0" expanded="false" />
+            <element signature="e#28013#29412#0" expanded="false" />
+            <element signature="e#29448#31042#0" expanded="false" />
+            <element signature="e#31909#32717#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1025,9 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,7 +935,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
             <element signature="e#388#442#0" expanded="false" />
             <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
@@ -1053,7 +952,17 @@
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
             <element signature="e#3470#3627#0" expanded="false" />
-            <element signature="e#3660#3855#0" expanded="false" />
+            <element signature="e#3660#3857#0" expanded="false" />
+            <element signature="e#3890#4074#0" expanded="false" />
+            <element signature="e#4107#4298#0" expanded="false" />
+            <element signature="e#4331#4554#0" expanded="false" />
+            <element signature="e#4587#4784#0" expanded="false" />
+            <element signature="e#4817#5023#0" expanded="false" />
+            <element signature="e#5056#5248#0" expanded="false" />
+            <element signature="e#5281#5485#0" expanded="false" />
+            <element signature="e#5518#5705#0" expanded="false" />
+            <element signature="e#5738#5910#0" expanded="false" />
+            <element signature="e#5943#6126#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1063,51 +972,62 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#106#820#0" expanded="false" />
-            <element signature="e#313#374#0" expanded="false" />
-            <element signature="e#410#463#0" expanded="false" />
-            <element signature="e#524#599#0" expanded="false" />
-            <element signature="e#641#820#0" expanded="false" />
-            <element signature="e#861#2481#0" expanded="false" />
-            <element signature="e#1596#1649#0" expanded="false" />
-            <element signature="e#1684#1738#0" expanded="false" />
-            <element signature="e#1788#1844#0" expanded="false" />
-            <element signature="e#1888#1946#0" expanded="false" />
-            <element signature="e#1981#2036#0" expanded="false" />
-            <element signature="e#2090#2258#0" expanded="false" />
-            <element signature="e#2300#2481#0" expanded="false" />
-            <element signature="e#2522#4848#0" expanded="false" />
-            <element signature="e#3497#3550#0" expanded="false" />
-            <element signature="e#3585#3639#0" expanded="false" />
-            <element signature="e#3764#3819#0" expanded="false" />
-            <element signature="e#3850#3895#0" expanded="false" />
-            <element signature="e#3940#3999#0" expanded="false" />
-            <element signature="e#4034#4085#0" expanded="false" />
-            <element signature="e#4135#4191#0" expanded="false" />
-            <element signature="e#4233#4290#0" expanded="false" />
-            <element signature="e#4350#4625#0" expanded="false" />
-            <element signature="e#4667#4848#0" expanded="false" />
-            <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#6232#6422#0" expanded="false" />
-            <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6762#8469#0" expanded="false" />
-            <element signature="e#7492#7541#0" expanded="false" />
-            <element signature="e#7587#7647#0" expanded="false" />
-            <element signature="e#7687#7747#0" expanded="false" />
-            <element signature="e#7789#7842#0" expanded="false" />
-            <element signature="e#7882#7941#0" expanded="false" />
-            <element signature="e#8000#8162#0" expanded="false" />
-            <element signature="e#8201#8383#0" expanded="false" />
-            <element signature="e#8418#8469#0" expanded="false" />
-            <element signature="e#8505#10129#0" expanded="false" />
-            <element signature="e#10166#11628#0" expanded="false" />
-            <element signature="e#11678#13132#0" expanded="false" />
-            <element signature="e#13186#14525#0" expanded="false" />
-            <element signature="e#14576#16254#0" expanded="false" />
-            <element signature="e#16309#18101#0" expanded="false" />
-            <element signature="e#18142#19605#0" expanded="false" />
-            <element signature="e#19641#20694#0" expanded="false" />
-            <element signature="e#20741#22136#0" expanded="false" />
+            <element signature="e#16#41#0" expanded="true" />
+            <element signature="e#153#867#0" expanded="false" />
+            <element signature="e#360#421#0" expanded="false" />
+            <element signature="e#457#510#0" expanded="false" />
+            <element signature="e#571#646#0" expanded="false" />
+            <element signature="e#688#867#0" expanded="false" />
+            <element signature="e#908#2528#0" expanded="false" />
+            <element signature="e#1643#1696#0" expanded="false" />
+            <element signature="e#1731#1785#0" expanded="false" />
+            <element signature="e#1835#1891#0" expanded="false" />
+            <element signature="e#1935#1993#0" expanded="false" />
+            <element signature="e#2028#2083#0" expanded="false" />
+            <element signature="e#2137#2305#0" expanded="false" />
+            <element signature="e#2347#2528#0" expanded="false" />
+            <element signature="e#2569#4895#0" expanded="false" />
+            <element signature="e#3544#3597#0" expanded="false" />
+            <element signature="e#3632#3686#0" expanded="false" />
+            <element signature="e#3811#3866#0" expanded="false" />
+            <element signature="e#3897#3942#0" expanded="false" />
+            <element signature="e#3987#4046#0" expanded="false" />
+            <element signature="e#4081#4132#0" expanded="false" />
+            <element signature="e#4182#4238#0" expanded="false" />
+            <element signature="e#4280#4337#0" expanded="false" />
+            <element signature="e#4397#4672#0" expanded="false" />
+            <element signature="e#4714#4895#0" expanded="false" />
+            <element signature="e#4935#6469#0" expanded="false" />
+            <element signature="e#6279#6469#0" expanded="false" />
+            <element signature="e#6501#6771#0" expanded="false" />
+            <element signature="e#6809#8516#0" expanded="false" />
+            <element signature="e#7539#7588#0" expanded="false" />
+            <element signature="e#7634#7694#0" expanded="false" />
+            <element signature="e#7734#7794#0" expanded="false" />
+            <element signature="e#7836#7889#0" expanded="false" />
+            <element signature="e#7929#7988#0" expanded="false" />
+            <element signature="e#8047#8209#0" expanded="false" />
+            <element signature="e#8248#8430#0" expanded="false" />
+            <element signature="e#8465#8516#0" expanded="false" />
+            <element signature="e#8552#10176#0" expanded="false" />
+            <element signature="e#10213#11675#0" expanded="false" />
+            <element signature="e#11725#13179#0" expanded="false" />
+            <element signature="e#13233#14572#0" expanded="false" />
+            <element signature="e#14623#16301#0" expanded="false" />
+            <element signature="e#16356#18148#0" expanded="false" />
+            <element signature="e#18189#19652#0" expanded="false" />
+            <element signature="e#19688#20741#0" expanded="false" />
+            <element signature="e#20788#22183#0" expanded="false" />
+            <element signature="e#22220#22697#0" expanded="false" />
+            <element signature="e#22734#23222#0" expanded="false" />
+            <element signature="e#23263#24046#0" expanded="false" />
+            <element signature="e#24084#24860#0" expanded="false" />
+            <element signature="e#24902#25666#0" expanded="false" />
+            <element signature="e#25712#26524#0" expanded="false" />
+            <element signature="e#26570#27970#0" expanded="false" />
+            <element signature="e#28013#29412#0" expanded="false" />
+            <element signature="e#29448#31042#0" expanded="false" />
+            <element signature="e#31909#32717#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,9 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,7 +1044,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
             <element signature="e#388#442#0" expanded="false" />
             <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
@@ -1144,7 +1061,17 @@
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
             <element signature="e#3470#3627#0" expanded="false" />
-            <element signature="e#3660#3855#0" expanded="false" />
+            <element signature="e#3660#3857#0" expanded="false" />
+            <element signature="e#3890#4074#0" expanded="false" />
+            <element signature="e#4107#4298#0" expanded="false" />
+            <element signature="e#4331#4554#0" expanded="false" />
+            <element signature="e#4587#4784#0" expanded="false" />
+            <element signature="e#4817#5023#0" expanded="false" />
+            <element signature="e#5056#5248#0" expanded="false" />
+            <element signature="e#5281#5485#0" expanded="false" />
+            <element signature="e#5518#5705#0" expanded="false" />
+            <element signature="e#5738#5910#0" expanded="false" />
+            <element signature="e#5943#6126#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1154,51 +1081,62 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="371" column="4" selection-start-line="371" selection-start-column="4" selection-end-line="371" selection-end-column="27" />
           <folding>
-            <element signature="e#106#820#0" expanded="false" />
-            <element signature="e#313#374#0" expanded="false" />
-            <element signature="e#410#463#0" expanded="false" />
-            <element signature="e#524#599#0" expanded="false" />
-            <element signature="e#641#820#0" expanded="false" />
-            <element signature="e#861#2481#0" expanded="false" />
-            <element signature="e#1596#1649#0" expanded="false" />
-            <element signature="e#1684#1738#0" expanded="false" />
-            <element signature="e#1788#1844#0" expanded="false" />
-            <element signature="e#1888#1946#0" expanded="false" />
-            <element signature="e#1981#2036#0" expanded="false" />
-            <element signature="e#2090#2258#0" expanded="false" />
-            <element signature="e#2300#2481#0" expanded="false" />
-            <element signature="e#2522#4848#0" expanded="false" />
-            <element signature="e#3497#3550#0" expanded="false" />
-            <element signature="e#3585#3639#0" expanded="false" />
-            <element signature="e#3764#3819#0" expanded="false" />
-            <element signature="e#3850#3895#0" expanded="false" />
-            <element signature="e#3940#3999#0" expanded="false" />
-            <element signature="e#4034#4085#0" expanded="false" />
-            <element signature="e#4135#4191#0" expanded="false" />
-            <element signature="e#4233#4290#0" expanded="false" />
-            <element signature="e#4350#4625#0" expanded="false" />
-            <element signature="e#4667#4848#0" expanded="false" />
-            <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#6232#6422#0" expanded="false" />
-            <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6762#8469#0" expanded="false" />
-            <element signature="e#7492#7541#0" expanded="false" />
-            <element signature="e#7587#7647#0" expanded="false" />
-            <element signature="e#7687#7747#0" expanded="false" />
-            <element signature="e#7789#7842#0" expanded="false" />
-            <element signature="e#7882#7941#0" expanded="false" />
-            <element signature="e#8000#8162#0" expanded="false" />
-            <element signature="e#8201#8383#0" expanded="false" />
-            <element signature="e#8418#8469#0" expanded="false" />
-            <element signature="e#8505#10129#0" expanded="false" />
-            <element signature="e#10166#11628#0" expanded="false" />
-            <element signature="e#11678#13132#0" expanded="false" />
-            <element signature="e#13186#14525#0" expanded="false" />
-            <element signature="e#14576#16254#0" expanded="false" />
-            <element signature="e#16309#18101#0" expanded="false" />
-            <element signature="e#18142#19605#0" expanded="false" />
-            <element signature="e#19641#20694#0" expanded="false" />
-            <element signature="e#20741#22136#0" expanded="false" />
+            <element signature="e#16#41#0" expanded="true" />
+            <element signature="e#153#867#0" expanded="false" />
+            <element signature="e#360#421#0" expanded="false" />
+            <element signature="e#457#510#0" expanded="false" />
+            <element signature="e#571#646#0" expanded="false" />
+            <element signature="e#688#867#0" expanded="false" />
+            <element signature="e#908#2528#0" expanded="false" />
+            <element signature="e#1643#1696#0" expanded="false" />
+            <element signature="e#1731#1785#0" expanded="false" />
+            <element signature="e#1835#1891#0" expanded="false" />
+            <element signature="e#1935#1993#0" expanded="false" />
+            <element signature="e#2028#2083#0" expanded="false" />
+            <element signature="e#2137#2305#0" expanded="false" />
+            <element signature="e#2347#2528#0" expanded="false" />
+            <element signature="e#2569#4895#0" expanded="false" />
+            <element signature="e#3544#3597#0" expanded="false" />
+            <element signature="e#3632#3686#0" expanded="false" />
+            <element signature="e#3811#3866#0" expanded="false" />
+            <element signature="e#3897#3942#0" expanded="false" />
+            <element signature="e#3987#4046#0" expanded="false" />
+            <element signature="e#4081#4132#0" expanded="false" />
+            <element signature="e#4182#4238#0" expanded="false" />
+            <element signature="e#4280#4337#0" expanded="false" />
+            <element signature="e#4397#4672#0" expanded="false" />
+            <element signature="e#4714#4895#0" expanded="false" />
+            <element signature="e#4935#6469#0" expanded="false" />
+            <element signature="e#6279#6469#0" expanded="false" />
+            <element signature="e#6501#6771#0" expanded="false" />
+            <element signature="e#6809#8516#0" expanded="false" />
+            <element signature="e#7539#7588#0" expanded="false" />
+            <element signature="e#7634#7694#0" expanded="false" />
+            <element signature="e#7734#7794#0" expanded="false" />
+            <element signature="e#7836#7889#0" expanded="false" />
+            <element signature="e#7929#7988#0" expanded="false" />
+            <element signature="e#8047#8209#0" expanded="false" />
+            <element signature="e#8248#8430#0" expanded="false" />
+            <element signature="e#8465#8516#0" expanded="false" />
+            <element signature="e#8552#10176#0" expanded="false" />
+            <element signature="e#10213#11675#0" expanded="false" />
+            <element signature="e#11725#13179#0" expanded="false" />
+            <element signature="e#13233#14572#0" expanded="false" />
+            <element signature="e#14623#16301#0" expanded="false" />
+            <element signature="e#16356#18148#0" expanded="false" />
+            <element signature="e#18189#19652#0" expanded="false" />
+            <element signature="e#19688#20741#0" expanded="false" />
+            <element signature="e#20788#22183#0" expanded="false" />
+            <element signature="e#22220#22697#0" expanded="false" />
+            <element signature="e#22734#23222#0" expanded="false" />
+            <element signature="e#23263#24046#0" expanded="false" />
+            <element signature="e#24084#24860#0" expanded="false" />
+            <element signature="e#24902#25666#0" expanded="false" />
+            <element signature="e#25712#26524#0" expanded="false" />
+            <element signature="e#26570#27970#0" expanded="false" />
+            <element signature="e#28013#29412#0" expanded="false" />
+            <element signature="e#29448#31042#0" expanded="false" />
+            <element signature="e#31909#32717#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1420,99 +1358,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7339246">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/common/keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0330033">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page/loginpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75103736">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7183099">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/detailpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="615" column="0" selection-start-line="615" selection-start-column="0" selection-end-line="615" selection-end-column="0" />
+        <state vertical-scroll-proportion="4.987531">
+          <caret line="1019" column="53" selection-start-line="1019" selection-start-column="53" selection-end-line="1019" selection-end-column="53" />
           <folding>
-            <element signature="e#106#820#0" expanded="false" />
-            <element signature="e#313#374#0" expanded="false" />
-            <element signature="e#410#463#0" expanded="false" />
-            <element signature="e#524#599#0" expanded="false" />
-            <element signature="e#641#820#0" expanded="false" />
-            <element signature="e#861#2481#0" expanded="false" />
-            <element signature="e#1596#1649#0" expanded="false" />
-            <element signature="e#1684#1738#0" expanded="false" />
-            <element signature="e#1788#1844#0" expanded="false" />
-            <element signature="e#1888#1946#0" expanded="false" />
-            <element signature="e#1981#2036#0" expanded="false" />
-            <element signature="e#2090#2258#0" expanded="false" />
-            <element signature="e#2300#2481#0" expanded="false" />
-            <element signature="e#2522#4848#0" expanded="false" />
-            <element signature="e#3497#3550#0" expanded="false" />
-            <element signature="e#3585#3639#0" expanded="false" />
-            <element signature="e#3764#3819#0" expanded="false" />
-            <element signature="e#3850#3895#0" expanded="false" />
-            <element signature="e#3940#3999#0" expanded="false" />
-            <element signature="e#4034#4085#0" expanded="false" />
-            <element signature="e#4135#4191#0" expanded="false" />
-            <element signature="e#4233#4290#0" expanded="false" />
-            <element signature="e#4350#4625#0" expanded="false" />
-            <element signature="e#4667#4848#0" expanded="false" />
-            <element signature="e#4888#6422#0" expanded="false" />
-            <element signature="e#6232#6422#0" expanded="false" />
-            <element signature="e#6454#6724#0" expanded="false" />
-            <element signature="e#6762#8469#0" expanded="false" />
-            <element signature="e#7492#7541#0" expanded="false" />
-            <element signature="e#7587#7647#0" expanded="false" />
-            <element signature="e#7687#7747#0" expanded="false" />
-            <element signature="e#7789#7842#0" expanded="false" />
-            <element signature="e#7882#7941#0" expanded="false" />
-            <element signature="e#8000#8162#0" expanded="false" />
-            <element signature="e#8201#8383#0" expanded="false" />
-            <element signature="e#8418#8469#0" expanded="false" />
-            <element signature="e#8505#10129#0" expanded="false" />
-            <element signature="e#10166#11628#0" expanded="false" />
-            <element signature="e#11678#13132#0" expanded="false" />
-            <element signature="e#13186#14525#0" expanded="false" />
-            <element signature="e#14576#16254#0" expanded="false" />
-            <element signature="e#16309#18101#0" expanded="false" />
-            <element signature="e#18142#19605#0" expanded="false" />
-            <element signature="e#19641#20694#0" expanded="false" />
-            <element signature="e#20741#22136#0" expanded="false" />
+            <element signature="e#16#41#0" expanded="true" />
+            <element signature="e#153#867#0" expanded="false" />
+            <element signature="e#360#421#0" expanded="false" />
+            <element signature="e#457#510#0" expanded="false" />
+            <element signature="e#571#646#0" expanded="false" />
+            <element signature="e#688#867#0" expanded="false" />
+            <element signature="e#908#2528#0" expanded="false" />
+            <element signature="e#1643#1696#0" expanded="false" />
+            <element signature="e#1731#1785#0" expanded="false" />
+            <element signature="e#1835#1891#0" expanded="false" />
+            <element signature="e#1935#1993#0" expanded="false" />
+            <element signature="e#2028#2083#0" expanded="false" />
+            <element signature="e#2137#2305#0" expanded="false" />
+            <element signature="e#2347#2528#0" expanded="false" />
+            <element signature="e#2569#4895#0" expanded="false" />
+            <element signature="e#3544#3597#0" expanded="false" />
+            <element signature="e#3632#3686#0" expanded="false" />
+            <element signature="e#3811#3866#0" expanded="false" />
+            <element signature="e#3897#3942#0" expanded="false" />
+            <element signature="e#3987#4046#0" expanded="false" />
+            <element signature="e#4081#4132#0" expanded="false" />
+            <element signature="e#4182#4238#0" expanded="false" />
+            <element signature="e#4280#4337#0" expanded="false" />
+            <element signature="e#4397#4672#0" expanded="false" />
+            <element signature="e#4714#4895#0" expanded="false" />
+            <element signature="e#4935#6469#0" expanded="false" />
+            <element signature="e#6279#6469#0" expanded="false" />
+            <element signature="e#6501#6771#0" expanded="false" />
+            <element signature="e#6809#8516#0" expanded="false" />
+            <element signature="e#7539#7588#0" expanded="false" />
+            <element signature="e#7634#7694#0" expanded="false" />
+            <element signature="e#7734#7794#0" expanded="false" />
+            <element signature="e#7836#7889#0" expanded="false" />
+            <element signature="e#7929#7988#0" expanded="false" />
+            <element signature="e#8047#8209#0" expanded="false" />
+            <element signature="e#8248#8430#0" expanded="false" />
+            <element signature="e#8465#8516#0" expanded="false" />
+            <element signature="e#8552#10176#0" expanded="false" />
+            <element signature="e#10213#11675#0" expanded="false" />
+            <element signature="e#11725#13179#0" expanded="false" />
+            <element signature="e#13233#14572#0" expanded="false" />
+            <element signature="e#14623#16301#0" expanded="false" />
+            <element signature="e#16356#18148#0" expanded="false" />
+            <element signature="e#18189#19652#0" expanded="false" />
+            <element signature="e#19688#20741#0" expanded="false" />
+            <element signature="e#20788#22183#0" expanded="false" />
+            <element signature="e#22220#22697#0" expanded="false" />
+            <element signature="e#22734#23222#0" expanded="false" />
+            <element signature="e#23263#24046#0" expanded="false" />
+            <element signature="e#24084#24860#0" expanded="false" />
+            <element signature="e#24902#25666#0" expanded="false" />
+            <element signature="e#25712#26524#0" expanded="false" />
+            <element signature="e#26570#27970#0" expanded="false" />
+            <element signature="e#28013#29412#0" expanded="false" />
+            <element signature="e#29448#31042#0" expanded="false" />
+            <element signature="e#31909#32717#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75388026">
-          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-          <folding />
+        <state vertical-scroll-proportion="0.76344085">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/aws_detail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5277162">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.70074815">
+          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
             <element signature="e#388#442#0" expanded="false" />
             <element signature="e#497#533#0" expanded="false" />
             <element signature="e#564#646#0" expanded="false" />
@@ -1529,8 +1476,27 @@
             <element signature="e#2981#3204#0" expanded="false" />
             <element signature="e#3237#3437#0" expanded="false" />
             <element signature="e#3470#3627#0" expanded="false" />
-            <element signature="e#3660#3855#0" expanded="false" />
+            <element signature="e#3660#3857#0" expanded="false" />
+            <element signature="e#3890#4074#0" expanded="false" />
+            <element signature="e#4107#4298#0" expanded="false" />
+            <element signature="e#4331#4554#0" expanded="false" />
+            <element signature="e#4587#4784#0" expanded="false" />
+            <element signature="e#4817#5023#0" expanded="false" />
+            <element signature="e#5056#5248#0" expanded="false" />
+            <element signature="e#5281#5485#0" expanded="false" />
+            <element signature="e#5518#5705#0" expanded="false" />
+            <element signature="e#5738#5910#0" expanded="false" />
+            <element signature="e#5943#6126#0" expanded="false" />
+            <element signature="e#6159#6342#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8004987">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -126,12 +126,88 @@ class Test_Detail(unittest.TestCase):
         self.assertEqual("claim_number",result)
 
     def test_14(self):
-        '''从字段处分组'''
+        '''测试从字段处分组'''
         group_field = Group_cloumn_on_column(driver)
         group_field.group_field_steps()
         result = group_field.group_result()
         self.assertEqual("Group Name",result)
 
+    def test_15(self):
+        '''测试跳转到下一页'''
+        next_pg = Go_Next_Page(driver)
+        next_pg.next_page()
+        result = next_pg.next_page_result()
+        self.assertEqual("Showing 11- 20 of 19998",result)
+
+    def test_16(self):
+        '''测试跳转到最后一页'''
+        last_pg = Go_Last_Page(driver)
+        last_pg.last_page()
+        result = last_pg.last_page_result()
+        self.assertEqual("Showing 19991- 19998 of 19998",result)
+
+    def test_17(self):
+        '''测试跳转到前一页'''
+        previous_pg = Go_Previous_Page(driver)
+        previous_pg.go_previous_page_steps()
+        result = previous_pg.previous_page_result()
+        self.assertEqual("Showing 19981- 19990 of 19998",result)
+
+    def test_18(self):
+        '''测试跳转到首页'''
+        first_pg = Go_First_Page(driver)
+        first_pg.go_first_page_steps()
+        result = first_pg.first_page_result()
+        self.assertEqual("Showing 1- 10 of 19998",result)
+
+    def test_19(self):
+        '''测试跳转到指定页码'''
+        sp_pg = Go_Specified_Page(driver)
+        sp_pg.go_to_specified_page_steps()
+        result = sp_pg.specified_page_result()
+        self.assertEqual("Showing 11- 20 of 19998",result)
+
+    def test_20(self):
+        '''测试显示20行数据'''
+        show_rows = Display_Rows_Per_Page(driver)
+        show_rows.display_rows_steps()
+        result = show_rows.display_rows_result()
+        self.assertEqual(" 20",result)
+
+    def test_21(self):
+        '''测试显示勾选行'''
+        selected = Display_Selected_Rows(driver)
+        selected.display_selected_steps()
+        result = selected.display_selected_result()
+        self.assertEqual("Query Data：3",result)
+
+    def test_22(self):
+        '''测试隐藏勾选行'''
+        hide = Hide_Selected_Rows(driver)
+        hide.hide_selected_steps()
+        result = hide.hide_selected_result()
+        self.assertEqual("Query Data：19995",result)
+
+    def test_23(self):
+        '''测试显示所有行'''
+        all =Display_All(driver)
+        all.display_all_steps()
+        result = all.display_all_result()
+        self.assertEqual("Query Data：19998",result)
+
+    def test_24(self):
+        '''测试在字段处升序排列'''
+        sort_asc = Sort_on_Cloumn_Asc(driver)
+        sort_asc.sort_asc_steps()
+        result = sort_asc.sort_asc_result()
+        self.assertEqual("0000001",result)
+
+    def test_25(self):
+        '''测试在字段处降序排列'''
+        sort_dsc = Sort_on_Cloumn_Dsc(driver)
+        sort_dsc.sort_dsc_steps()
+        result = sort_dsc.sort_dsc_result()
+        self.assertEqual("0010800",result)
 
 if __name__ == "__main__":
     unittest.main()

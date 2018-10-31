@@ -2,7 +2,7 @@
 
 from common.base import *
 from page.loginpage import *
-
+from selenium.webdriver.common.keys import Keys
 
 class Open_Report(BasePage):
     '''查找并打开报表'''
@@ -693,19 +693,382 @@ class Group_cloumn_on_column(BasePage):
             return ""
 
 
+class Go_Next_Page(BasePage):
+    '''跳转到下一页'''
+    next_page_loc = ("css selector",".iconfont.icon-arrow-right-line")
+    page_value_loc = ("xpath",".//*[@id='summary-div']/div/div/div[3]/div/span")
+
+    def next_page(self):
+        '''点击下一页'''
+        self.click(self.next_page_loc)
+
+    def next_page_result(self):
+        '''获取下一页文本结果'''
+        try:
+            t = self.find_element(self.page_value_loc).text
+            return t
+        except:
+            print("获取下一页文本结果失败，返回空字符")
+            return ""
+
+
+class Go_Last_Page(BasePage):
+    '''跳转到最后一页'''
+    last_page_loc = ("css selector",".iconfont.icon-pager-end")
+    last_page_result_loc = ("xpath",".//*[@id='summary-div']/div/div/div[3]/div/span")
+
+    def last_page(self):
+        '''点击最后一页'''
+        self.click(self.last_page_loc)
+
+    def last_page_result(self):
+        '''获取跳转最后一页结果'''
+        try:
+            t = self.find_element(self.last_page_result_loc).text
+            return t
+        except:
+            print("获取跳转最后一页文本结果失败，返回空字符")
+            return ""
+
+
+class Go_Previous_Page(BasePage):
+    '''跳转到前一页'''
+    last_page_loc = ("css selector",".iconfont.icon-pager-end")
+    previous_page_loc = ("css selector",".iconfont.icon-arrow-left-line")
+    previous_page_result_loc = ("xpath",".//*[@id='summary-div']/div/div/div[3]/div/span")
+
+    def last_page(self):
+        '''跳转到最后一页'''
+        self.click(self.last_page_loc)
+
+    def previous_page(self):
+        self.click(self.previous_page_loc)
+
+    def go_previous_page_steps(self):
+        '''跳转到前一页流程'''
+        self.last_page()
+        time.sleep(3)
+        self.previous_page()
+
+    def previous_page_result(self):
+        '''跳转到前一页结果'''
+        try:
+            t = self.find_element(self.previous_page_result_loc).text
+            return t
+        except:
+            print("获取跳转到前一页文本结果失败，返回空字符")
+            return ""
+
+
+class Go_First_Page(BasePage):
+    '''跳转到第一页'''
+    last_page_loc = ("css selector",".iconfont.icon-pager-end")
+    first_page_loc = ("css selector",".iconfont.icon-pager-first")
+    first_page_result_loc = ("xpath",".//*[@id='summary-div']/div/div/div[3]/div/span")
+
+    def last_page(self):
+        '''跳转到最后一页'''
+        self.click(self.last_page_loc)
+
+    def first_page(self):
+        '''跳转到第一页'''
+        self.click(self.first_page_loc)
+
+    def go_first_page_steps(self):
+        '''跳转到第一页流程'''
+        self.last_page()
+        time.sleep(3)
+        self.first_page()
+
+    def first_page_result(self):
+        '''获取跳转到第一页结果'''
+        try:
+            t = self.find_element(self.first_page_result_loc).text
+            return t
+        except:
+            print("获取跳转到第一页结果失败，返回空字符")
+            return ""
+
+
+class Go_Specified_Page(BasePage):
+    '''跳转到指定页码'''
+    go_page_loc=("css selector","#go")
+    specified_page_result_loc=("xpath",".//*[@id='summary-div']/div/div/div[3]/div/span")
+
+    def input_specified_page(self,text="2"):
+        '''输入指定页码'''
+        self.send_keys(self.go_page_loc,text)
+
+    def enter_specified_page(self):
+        '''进入指定页码'''
+        self.find_element(self.go_page_loc).send_keys(Keys.ENTER)
+
+    def go_to_specified_page_steps(self):
+        '''跳转到指定页码流程'''
+        self.input_specified_page()
+        self.enter_specified_page()
+
+    def specified_page_result(self):
+        '''获取跳转指定页面结果'''
+        try:
+            t = self.find_element(self.specified_page_result_loc).text
+            return t
+        except:
+            print("获取跳转指定页面结果失败，返回空字符")
+            return ""
+
+
+class Display_Rows_Per_Page(BasePage):
+    '''每页显示数据行数'''
+    down_arrow_loc = ("xpath",".//*[@id='summary-div']/div/div/div[5]/div[1]/ul/li/span/b")
+    row_loc = ("xpath",".//*[@id='summary-div']/div/div/div[5]/div[1]/ul/li/ul/li[2]/a")
+    display_rows_result_loc = ("xpath",".//*[@id='summary-div']/div/div/div[5]/div[1]/ul/li/span/i")
+
+    def down_arrow(self):
+        '''点击下拉框箭头'''
+        self.click(self.down_arrow_loc)
+
+    def select_row(self):
+        '''选择数据行数'''
+        self.click(self.row_loc)
+
+    def display_rows_steps(self):
+        '''显示数据行数流程'''
+        self.down_arrow()
+        self.select_row()
+
+    def display_rows_result(self):
+        '''获取显示数据行数结果'''
+        try:
+            t = self.find_element(self.display_rows_result_loc).text
+            return t
+        except:
+            print("获取结果失败，返回空字符")
+            return ""
+
+
+class Display_Selected_Rows(BasePage):
+    '''显示勾选行'''
+    row_1_loc = ("xpath",".//*[@id='table']/tbody/tr[1]/td[1]/input")
+    row_2_loc = ("xpath",".//*[@id='table']/tbody/tr[2]/td[1]/input")
+    row_3_loc = ("xpath",".//*[@id='table']/tbody/tr[3]/td[1]/input")
+    dropdown_arrow_loc = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[3]/div[1]/div/i")
+    selected_rows_loc = ("xpath",".//*[text()='Only Selected Rows']")
+    display_selected_result_loc = ("xpath",".//*[@id='table']/tbody/tr[4]/td[2]")
+
+    def row_1_checkbox(self):
+        '''勾选第一行'''
+        self.click(self.row_1_loc)
+
+    def row_2_checkbox(self):
+        '''勾选第二行'''
+        self.click(self.row_2_loc)
+
+    def row_3_checkbox(self):
+        '''勾选第三行'''
+        self.click(self.row_3_loc)
+
+    def dropdown_arrow(self):
+        '''点击下拉框箭头'''
+        self.click(self.dropdown_arrow_loc)
+
+    def only_selected_rows(self):
+        '''点击显示勾选行'''
+        self.click(self.selected_rows_loc)
+
+    def display_selected_steps(self):
+        '''显示勾选行流程'''
+        self.row_1_checkbox()
+        self.row_2_checkbox()
+        self.row_3_checkbox()
+        self.dropdown_arrow()
+        self.only_selected_rows()
+
+    def display_selected_result(self):
+        '''获取显示勾选行结果'''
+        try:
+            t = self.find_element(self.display_selected_result_loc).text
+            return t
+        except:
+            print("获取结果失败，返回空字符")
+            return ""
+
+
+class Hide_Selected_Rows(BasePage):
+    '''隐藏勾选行'''
+    row_1_loc = ("xpath",".//*[@id='table']/tbody/tr[1]/td[1]/input")
+    row_2_loc = ("xpath",".//*[@id='table']/tbody/tr[2]/td[1]/input")
+    row_3_loc = ("xpath",".//*[@id='table']/tbody/tr[3]/td[1]/input")
+    dropdown_arrow_loc = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[3]/div[1]/div/i")
+    hide_selected_rows_loc = ("xpath",".//*[text()='Hide Selected Rows']")
+    hide_selected_result_loc = ("xpath",".//*[@id='table']/tbody/tr[11]/td[2]")
+
+    def row_1_checkbox(self):
+        '''勾选第一行'''
+        self.click(self.row_1_loc)
+
+    def row_2_checkbox(self):
+        '''勾选第二行'''
+        self.click(self.row_2_loc)
+
+    def row_3_checkbox(self):
+        '''勾选第三行'''
+        self.click(self.row_3_loc)
+
+    def dropdown_arrow(self):
+        '''点击下拉框箭头'''
+        self.click(self.dropdown_arrow_loc)
+
+    def hide_selected_rows(self):
+        '''点击隐藏勾选行'''
+        self.click(self.hide_selected_rows_loc)
+
+    def hide_selected_steps(self):
+        '''隐藏勾选行流程'''
+        self.row_1_checkbox()
+        self.row_2_checkbox()
+        self.row_3_checkbox()
+        self.dropdown_arrow()
+        self.hide_selected_rows()
+
+    def hide_selected_result(self):
+        '''获取隐藏勾选行结果'''
+        try:
+            t = self.find_element(self.hide_selected_result_loc).text
+            return t
+        except:
+            print("获取结果失败，返回空字符")
+            return ""
+
+
+class Display_All(BasePage):
+    '''显示所有行'''
+    row_1_loc = ("xpath",".//*[@id='table']/tbody/tr[1]/td[1]/input")
+    row_2_loc = ("xpath",".//*[@id='table']/tbody/tr[2]/td[1]/input")
+    row_3_loc = ("xpath",".//*[@id='table']/tbody/tr[3]/td[1]/input")
+    dropdown_arrow_loc = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[3]/div[1]/div/i")
+    hide_selected_rows_loc = ("xpath",".//*[text()='Hide Selected Rows']")
+    display_all_loc = ("xpath",".//*[text()='Display All']")
+    all_rows_result_loc = ("xpath",".//*[@id='table']/tbody/tr[11]/td[2]")
+
+    def row_1_checkbox(self):
+        '''勾选第一行'''
+        self.click(self.row_1_loc)
+
+    def row_2_checkbox(self):
+        '''勾选第二行'''
+        self.click(self.row_2_loc)
+
+    def row_3_checkbox(self):
+        '''勾选第三行'''
+        self.click(self.row_3_loc)
+
+    def dropdown_arrow(self):
+        '''点击下拉框箭头'''
+        self.click(self.dropdown_arrow_loc)
+
+    def hide_selected_rows(self):
+        '''点击隐藏勾选行'''
+        self.click(self.hide_selected_rows_loc)
+
+    def display_all(self):
+        '''点击显示所有行'''
+        self.click(self.display_all_loc)
+
+    def display_all_steps(self):
+        '''显示所有行流程'''
+        self.row_1_checkbox()
+        self.row_2_checkbox()
+        self.row_3_checkbox()
+        self.dropdown_arrow()
+        self.hide_selected_rows()
+        self.dropdown_arrow()
+        self.display_all()
+
+    def display_all_result(self):
+        '''获取显示所有行结果'''
+        try:
+            t = self.find_element(self.all_rows_result_loc).text
+            return t
+        except:
+            print("获取结果失败，返回空字符")
+            return ""
+
+
+class Sort_on_Cloumn_Asc(BasePage):
+    '''在字段列升序排列'''
+    column_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/span")
+    update_btn_loc = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[2]/div/button")
+    sort_asc_result_loc = ("xpath",".//*[@id='table']/tbody/tr[1]/td[2]")
+
+    def column_name(self):
+        '''点击字段名'''
+        self.click(self.column_loc)
+
+    def update_btn(self):
+        '''点击更新按钮'''
+        self.click(self.update_btn_loc)
+
+    def sort_asc_steps(self):
+        '''生序排列流程'''
+        self.column_name()
+        self.update_btn()
+
+    def sort_asc_result(self):
+        '''获取升序排列结果'''
+        try:
+            t = self.find_element(self.sort_asc_result_loc).text
+            return t
+        except:
+            print("获取结果失败，返回空字符")
+            return ""
+
+
+class Sort_on_Cloumn_Dsc(BasePage):
+    '''在字段处降序排列'''
+    column_loc = ("xpath",".//*[@id='table-sticky-header']/tr/th[2]/div[1]/span")
+    update_btn_loc = ("xpath",".//*[@id='inner-container']/div[2]/ng-switch/div/div/div/div[2]/div/button")
+    sort_dsc_result_loc = ("xpath",".//*[@id='table']/tbody/tr[1]/td[2]")
+
+    def column_name(self):
+        '''点击字段名'''
+        self.click(self.column_loc)
+
+    def update_btn(self):
+        '''点击更新按钮'''
+        self.click(self.update_btn_loc)
+
+    def sort_dsc_steps(self):
+        '''生序排列流程'''
+        self.column_name()
+        self.column_name()
+        self.update_btn()
+
+    def sort_dsc_result(self):
+        '''获取升序排列结果'''
+        try:
+            t = self.find_element(self.sort_dsc_result_loc).text
+            return t
+        except:
+            print("获取结果失败，返回空字符")
+            return ""
+
+
 if __name__ == "__main__":
     driver = webdriver.Firefox()
-    login = LoginPage(driver)
-    rpt = Open_Report(driver)
-    group_field = Group_cloumn_on_column(driver)
     url = "https://demo.jintelhealth.com/Analytics/#!/login"
     username = "lz_admin"
     psw = "Ghc2018!"
+    login = LoginPage(driver)
     login.login_process(url,username,psw)
+    rpt = Open_Report(driver)
     rpt.open_steps()
     time.sleep(3)
-    group_field.group_field_steps()
-    print(group_field.group_result())
+    sort_dsc = Sort_on_Cloumn_Dsc(driver)
+    sort_dsc.sort_dsc_steps()
+    result = sort_dsc.sort_dsc_result()
+    print(result)
+
 
 
 
