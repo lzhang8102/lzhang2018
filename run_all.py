@@ -5,7 +5,7 @@ import time
 
 
 # 用例地址
-tc_dir = "D:\\test\\case"
+tc_dir = "D:\\thiscomputer\\workspace\\aws_test\\case"
 # 测试套件收集用例
 # discover方法加载多个用例集合
 discover = unittest.defaultTestLoader.discover(start_dir=tc_dir,
